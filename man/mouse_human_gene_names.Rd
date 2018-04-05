@@ -3,7 +3,7 @@
 \docType{data}
 \name{mouse_human_gene_names}
 \alias{mouse_human_gene_names}
-\title{Mouse Kinase and Corresponding Human Orthologs}
+\title{Mouse Kinases and Corresponding Human Orthologs}
 \format{A data frame with 555 rows and 2 columns
 \describe{
   \item{Mouse_gene_name}{The mouse kinase name}
