@@ -4,7 +4,7 @@ output: html_notebook
 ---
 
 ```{r,echo=FALSE}
-#Load some required libraries
+#Load required libraries
 library(tidyverse)
 library(readxl)
 library(here)
@@ -64,8 +64,8 @@ for (this_row_num in 1:dim(additional_hgncs)[1]) {
 
 kinase_com_list$hgnc_id = str_extract(kinase_com_list$Entrez_dbXrefs,"HGNC:[:digit:]+")
 kinase_com_simplified = kinase_com_list %>%
-  rename(Manning_name = Name) %>%
-  select(Manning_name,hgnc_id)
+  rename(kinase_com_name = Name) %>%
+  select(kinase_com_name,hgnc_id)
 ```
 
 ## HGNC List
