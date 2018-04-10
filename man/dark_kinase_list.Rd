@@ -4,9 +4,10 @@
 \name{dark_kinase_list}
 \alias{dark_kinase_list}
 \title{Human Dark Kinases}
-\format{A data frame with 162 rows and 1 column
+\format{A data frame with 162 rows and 2 columns
 \describe{
-  \item{hgnc_id}{The human dark kinase name}
+  \item{hgnc_symbol}{The human dark kinase name in HGNC}
+  \item{DRGC_symbol}{The symbol used int the DRGC documents, mostly idenfical to the hgnc_symbol, minus proteins without HGNC symbols}
 }}
 \source{
 NIH and the Dark Kinase DRGC
@@ -15,6 +16,6 @@ NIH and the Dark Kinase DRGC
 dark_kinase_list
 }
 \description{
-A dataset containing a list of dark kinases
+A dataset containing a list of dark kinases.
 }
 \keyword{datasets}
