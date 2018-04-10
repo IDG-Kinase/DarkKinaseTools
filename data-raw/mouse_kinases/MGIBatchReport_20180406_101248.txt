@@ -1,0 +1,463 @@
+Input	Input Type	MGI Gene/Marker ID	Symbol	Name	Feature Type
+MGI:1100520	MGI	MGI:1100520	Twf1	twinfilin actin binding protein 1	protein coding gene
+MGI:1346078	MGI	MGI:1346078	Twf2	twinfilin actin binding protein 2	protein coding gene
+MGI:87859	MGI	MGI:87859	Abl1	c-abl oncogene 1, non-receptor tyrosine kinase	protein coding gene
+MGI:1858308	MGI	MGI:1858308	Tnk2	tyrosine kinase, non-receptor, 2	protein coding gene
+MGI:102806	MGI	MGI:102806	Acvr2a	activin receptor IIA	protein coding gene
+MGI:87912	MGI	MGI:87912	Acvr2b	activin receptor IIB	protein coding gene
+MGI:1919363	MGI	MGI:1919363	Adck1	aarF domain containing kinase 1	protein coding gene
+MGI:2141722	MGI	MGI:1889336	Adck2	aarF domain containing kinase 2	protein coding gene
+MGI:1914676	MGI	MGI:1914676	Coq8a	coenzyme Q8A	protein coding gene
+MGI:1924139	MGI	MGI:1924139	Coq8b	coenzyme Q8B	protein coding gene
+MGI:87986	MGI	MGI:87986	Akt1	thymoma viral proto-oncogene 1	protein coding gene
+MGI:104874	MGI	MGI:104874	Akt2	thymoma viral proto-oncogene 2	protein coding gene
+MGI:1345147	MGI	MGI:1345147	Akt3	thymoma viral proto-oncogene 3	protein coding gene
+MGI:103305	MGI	MGI:103305	Alk	anaplastic lymphoma kinase	protein coding gene
+MGI:2145999	MGI	MGI:1338946	Acvrl1	activin A receptor, type II-like 1	protein coding gene
+MGI:2445032	MGI	MGI:87911	Acvr1	activin A receptor, type 1	protein coding gene
+MGI:1338944	MGI	MGI:1338944	Acvr1b	activin A receptor, type 1B	protein coding gene
+MGI:2151224	MGI	MGI:2151224	Alpk3	alpha-kinase 3	protein coding gene
+MGI:2449492	MGI	MGI:2449492	Alpk2	alpha-kinase 2	protein coding gene
+MGI:1918731	MGI	MGI:1918731	Alpk1	alpha-kinase 1	protein coding gene
+MGI:2145955	MGI	MGI:2145955	Prkaa1	protein kinase, AMP-activated, alpha 1 catalytic subunit	protein coding gene
+MGI:1336173	MGI	MGI:1336173	Prkaa2	protein kinase, AMP-activated, alpha 2 catalytic subunit	protein coding gene
+MGI:1919638	MGI	MGI:1919638	Ripk4	receptor-interacting serine-threonine kinase 4	protein coding gene
+MGI:97371	MGI	MGI:97371	Npr1	natriuretic peptide receptor 1	protein coding gene
+MGI:88065	MGI	MGI:88065	Araf	Araf proto-oncogene, serine/threonine kinase	protein coding gene
+MGI:87860	MGI	MGI:87860	Abl2	v-abl Abelson murine leukemia viral oncogene 2 (arg, Abelson-related gene)	protein coding gene
+MGI:107202	MGI	MGI:107202	Atm	ataxia telangiectasia mutated	protein coding gene
+MGI:108028	MGI	MGI:108028	Atr	ataxia telangiectasia and Rad3 related	protein coding gene
+MGI:894678	MGI	MGI:894678	Aurka	aurora kinase A	protein coding gene
+MGI:107168	MGI	MGI:107168	Aurkb	aurora kinase B	protein coding gene
+MGI:1347244	MGI	MGI:1347244	Axl	AXL receptor tyrosine kinase	protein coding gene
+MGI:87940	MGI	MGI:87940	Grk2	G protein-coupled receptor kinase 2	protein coding gene
+MGI:2443434	MGI	MGI:87941	Grk3	G protein-coupled receptor kinase 3	protein coding gene
+MGI:1276121	MGI	MGI:1276121	Bckdk	branched chain ketoacid dehydrogenase kinase	protein coding gene
+MGI:1918508	MGI	MGI:88141	Bcr	breakpoint cluster region	protein coding gene
+MGI:2155456	MGI	MGI:2155456	Bmp2k	BMP2 inducible kinase	protein coding gene
+MGI:88169	MGI	MGI:88169	Blk	B lymphoid kinase	protein coding gene
+MGI:1338938	MGI	MGI:1338938	Bmpr1a	bone morphogenetic protein receptor, type 1A	protein coding gene
+MGI:107191	MGI	MGI:107191	Bmpr1b	bone morphogenetic protein receptor, type 1B	protein coding gene
+MGI:1095407	MGI	MGI:1095407	Bmpr2	bone morphogenetic protein receptor, type II (serine/threonine kinase)	protein coding gene
+MGI:1101778	MGI	MGI:1101778	Bmx	BMX non-receptor tyrosine kinase	protein coding gene
+MGI:88190	MGI	MGI:88190	Braf	Braf transforming gene	protein coding gene
+MGI:99495	MGI	MGI:99495	Brd2	bromodomain containing 2	protein coding gene
+MGI:1914632	MGI	MGI:1914632	Brd3	bromodomain containing 3	protein coding gene
+MGI:1337084	MGI	MGI:1888520	Brd4	bromodomain containing 4	protein coding gene
+MGI:1891374	MGI	MGI:1891374	Brdt	bromodomain, testis-specific	protein coding gene
+MGI:99683	MGI	MGI:99683	Ptk6	PTK6 protein tyrosine kinase 6	protein coding gene
+MGI:88216	MGI	MGI:88216	Btk	Bruton agammaglobulinemia tyrosine kinase	protein coding gene
+MGI:1100510	MGI	MGI:1100510	Bub1	BUB1, mitotic checkpoint serine/threonine kinase	protein coding gene
+MGI:1333889	MGI	MGI:1333889	Bub1b	BUB1B, mitotic checkpoint serine/threonine kinase	protein coding gene
+MGI:1097693	MGI	MGI:1097693	Ogg1	8-oxoguanine DNA-glycosylase 1	protein coding gene
+MGI:1347357	MGI	MGI:1347357	Pnck	pregnancy upregulated non-ubiquitously expressed CaM kinase	protein coding gene
+MGI:2442190	MGI	MGI:2442190	Camk1d	calcium/calmodulin-dependent protein kinase ID	protein coding gene
+MGI:2388073	MGI	MGI:2388073	Camk1g	calcium/calmodulin-dependent protein kinase I gamma	protein coding gene
+MGI:88256	MGI	MGI:88256	Camk2a	calcium/calmodulin-dependent protein kinase II alpha	protein coding gene
+MGI:88257	MGI	MGI:88257	Camk2b	calcium/calmodulin-dependent protein kinase II, beta	protein coding gene
+MGI:1341265	MGI	MGI:1341265	Camk2d	calcium/calmodulin-dependent protein kinase II, delta	protein coding gene
+MGI:88259	MGI	MGI:88259	Camk2g	calcium/calmodulin-dependent protein kinase II gamma	protein coding gene
+MGI:88258	MGI	MGI:88258	Camk4	calcium/calmodulin-dependent protein kinase IV	protein coding gene
+MGI:1891766	MGI	MGI:1891766	Camkk1	calcium/calmodulin-dependent protein kinase kinase 1, alpha	protein coding gene
+MGI:2444812	MGI	MGI:2444812	Camkk2	calcium/calmodulin-dependent protein kinase kinase 2, beta	protein coding gene
+MGI:2443063	MGI	MGI:2443063	Mylk3	myosin light chain kinase 3	protein coding gene
+MGI:1309489	MGI	MGI:1309489	Cask	calcium/calmodulin-dependent serine protein kinase (MAGUK family)	protein coding gene
+MGI:1918711	MGI	MGI:1918711	Ptk7	PTK7 protein tyrosine kinase 7	protein coding gene
+MGI:2145349	MGI	MGI:2145349	Cdk20	cyclin-dependent kinase 20	protein coding gene
+MGI:88351	MGI	MGI:88351	Cdk1	cyclin-dependent kinase 1	protein coding gene
+MGI:1309511	MGI	MGI:1309511	Cdc7	cell division cycle 7 (S. cerevisiae)	protein coding gene
+MGI:2448549	MGI	MGI:2448549	Cdk10	cyclin-dependent kinase 10	protein coding gene
+MGI:1914837	MGI	MGI:1914837	Cdk19os	cyclin-dependent kinase 19, opposite strand	antisense lncRNA gene
+MGI:104772	MGI	MGI:104772	Cdk2	cyclin-dependent kinase 2	protein coding gene
+MGI:88357	MGI	MGI:88357	Cdk4	cyclin-dependent kinase 4	protein coding gene
+MGI:101765	MGI	MGI:101765	Cdk5	cyclin-dependent kinase 5	protein coding gene
+MGI:1277162	MGI	MGI:1277162	Cdk6	cyclin-dependent kinase 6	protein coding gene
+MGI:102956	MGI	MGI:102956	Cdk7	cyclin-dependent kinase 7	protein coding gene
+MGI:1196224	MGI	MGI:1196224	Cdk8	cyclin-dependent kinase 8	protein coding gene
+MGI:1328368	MGI	MGI:1328368	Cdk9	cyclin-dependent kinase 9 (CDC2-related kinase)	protein coding gene
+MGI:1918341	MGI	MGI:1918341	Cdkl1	cyclin-dependent kinase-like 1 (CDC2-related kinase)	protein coding gene
+MGI:1858227	MGI	MGI:1858227	Cdkl2	cyclin-dependent kinase-like 2 (CDC2-related kinase)	protein coding gene
+MGI:2388268	MGI	MGI:2388268	Cdkl3	cyclin-dependent kinase-like 3	protein coding gene
+MGI:2147007	MGI	MGI:3587025	Cdkl4	cyclin-dependent kinase-like 4	protein coding gene
+MGI:2448589	MGI	MGI:1278336	Cdkl5	cyclin-dependent kinase-like 5	protein coding gene
+MGI:1929996	MGI	MGI:1929996	Trpm7	transient receptor potential cation channel, subfamily M, member 7	protein coding gene
+MGI:1916812	MGI	MGI:1916812	Cdk13	cyclin-dependent kinase 13	protein coding gene
+MGI:1202065	MGI	MGI:1202065	Chek1	checkpoint kinase 1	protein coding gene
+MGI:1355321	MGI	MGI:1355321	Chek2	checkpoint kinase 2	protein coding gene
+MGI:1934950	MGI	MGI:1934950	Csnk1a1	casein kinase 1, alpha 1	protein coding gene
+MGI:1355272	MGI	MGI:1355272	Csnk1d	casein kinase 1, delta	protein coding gene
+MGI:1351660	MGI	MGI:1351660	Csnk1e	casein kinase 1, epsilon	protein coding gene
+MGI:2143622	MGI	MGI:1920014	Csnk1g2	casein kinase 1, gamma 2	protein coding gene
+MGI:1917675	MGI	MGI:1917675	Csnk1g3	casein kinase 1, gamma 3	protein coding gene
+MGI:88543	MGI	MGI:88543	Csnk2a1	casein kinase 2, alpha 1 polypeptide	protein coding gene
+MGI:894650	MGI	MGI:88543	Csnk2a1	casein kinase 2, alpha 1 polypeptide	protein coding gene
+MGI:88547	MGI	MGI:88547	Csnk2a2	casein kinase 2, alpha prime polypeptide	protein coding gene
+MGI:1914583	MGI	MGI:1914583	Stk35	serine/threonine kinase 35	protein coding gene
+MGI:107403	MGI	MGI:107403	Clk1	CDC-like kinase 1	protein coding gene
+MGI:1098669	MGI	MGI:1098669	Clk2	CDC-like kinase 2	protein coding gene
+MGI:1098551	MGI	MGI:1098551	Clk4	CDC like kinase 4	protein coding gene
+MGI:1346878	MGI	MGI:1346878	Map3k8	mitogen-activated protein kinase kinase kinase 8	protein coding gene
+MGI:105313	MGI	MGI:105313	Cit	citron	protein coding gene
+MGI:1289232	MGI	MGI:1098802	Cdk12	cyclin-dependent kinase 12	protein coding gene
+MGI:88537	MGI	MGI:88537	Csk	c-src tyrosine kinase	protein coding gene
+MGI:99259	MGI	MGI:99259	Matk	megakaryocyte-associated tyrosine kinase	protein coding gene
+MGI:105123	MGI	MGI:105123	Gucy2e	guanylate cyclase 2e	protein coding gene
+MGI:106030	MGI	MGI:106030	Gucy2d	guanylate cyclase 2d	protein coding gene
+MGI:1916885	MGI	MGI:1916885	Dapk1	death associated protein kinase 1	protein coding gene
+MGI:1341297	MGI	MGI:1341297	Dapk2	death-associated protein kinase 2	protein coding gene
+MGI:1203520	MGI	MGI:1203520	Dapk3	death-associated protein kinase 3	protein coding gene
+MGI:1330861	MGI	MGI:1330861	Dclk1	doublecortin-like kinase 1	protein coding gene
+MGI:1918012	MGI	MGI:1918012	Dclk2	doublecortin-like kinase 2	protein coding gene
+MGI:99216	MGI	MGI:99216	Ddr1	discoidin domain receptor family, member 1	protein coding gene
+MGI:1345277	MGI	MGI:1345277	Ddr2	discoidin domain receptor family, member 2	protein coding gene
+MGI:1346881	MGI	MGI:1346881	Map3k12	mitogen-activated protein kinase kinase kinase 12	protein coding gene
+MGI:94906	MGI	MGI:94906	Dmpk	dystrophia myotonica-protein kinase	protein coding gene
+MGI:104779	MGI	MGI:104779	Prkdc	protein kinase, DNA activated, catalytic polypeptide	protein coding gene
+MGI:2138162	MGI	MGI:2138162	Stk17b	serine/threonine kinase 17b (apoptosis-inducing)	protein coding gene
+MGI:1330299	MGI	MGI:1330299	Dyrk1a	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a	protein coding gene
+MGI:1330302	MGI	MGI:1330302	Dyrk1b	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1b	protein coding gene
+MGI:1921665	MGI	MGI:1921665	4932442E05Rik	RIKEN cDNA 4932442E05 gene	protein coding gene
+MGI:2141638	MGI	MGI:1330292	Dyrk4	dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 4	protein coding gene
+MGI:1195261	MGI	MGI:1195261	Eef2k	eukaryotic elongation factor-2 kinase	protein coding gene
+MGI:95294	MGI	MGI:95294	Egfr	epidermal growth factor receptor	protein coding gene
+MGI:107381	MGI	MGI:107381	Epha1	Eph receptor A1	protein coding gene
+MGI:95278	MGI	MGI:95278	Epha2	Eph receptor A2	protein coding gene
+MGI:1341865	MGI	MGI:1341865	Mark3	MAP/microtubule affinity regulating kinase 3	protein coding gene
+MGI:98277	MGI	MGI:98277	Epha4	Eph receptor A4	protein coding gene
+MGI:99654	MGI	MGI:99654	Epha5	Eph receptor A5	protein coding gene
+MGI:108034	MGI	MGI:108034	Epha6	Eph receptor A6	protein coding gene
+MGI:95276	MGI	MGI:95276	Epha7	Eph receptor A7	protein coding gene
+MGI:109378	MGI	MGI:109378	Epha8	Eph receptor A8	protein coding gene
+MGI:1096337	MGI	MGI:1096337	Ephb1	Eph receptor B1	protein coding gene
+MGI:99611	MGI	MGI:99611	Ephb2	Eph receptor B2	protein coding gene
+MGI:104770	MGI	MGI:104770	Ephb3	Eph receptor B3	protein coding gene
+MGI:104757	MGI	MGI:104757	Ephb4	Eph receptor B4	protein coding gene
+MGI:1096338	MGI	MGI:1096338	Ephb6	Eph receptor B6	protein coding gene
+MGI:95410	MGI	MGI:95410	Erbb2	erb-b2 receptor tyrosine kinase 2	protein coding gene
+MGI:95411	MGI	MGI:95411	Erbb3	erb-b2 receptor tyrosine kinase 3	protein coding gene
+MGI:1346859	MGI	MGI:1346859	Mapk3	mitogen-activated protein kinase 3	protein coding gene
+MGI:1346858	MGI	MGI:1346858	Mapk1	mitogen-activated protein kinase 1	protein coding gene
+MGI:1354946	MGI	MGI:1354946	Mapk6	mitogen-activated protein kinase 6	protein coding gene
+MGI:2444559	MGI	MGI:2444559	Mapk4	mitogen-activated protein kinase 4	protein coding gene
+MGI:1346347	MGI	MGI:1346347	Mapk7	mitogen-activated protein kinase 7	protein coding gene
+MGI:95481	MGI	MGI:95481	Ptk2	PTK2 protein tyrosine kinase 2	protein coding gene
+MGI:1913837	MGI	MGI:1913837	Fastk	Fas-activated serine/threonine kinase	protein coding gene
+MGI:105917	MGI	MGI:105917	Fer	fer (fms/fps related) protein kinase	protein coding gene
+MGI:95514	MGI	MGI:95514	Fes	feline sarcoma oncogene	protein coding gene
+MGI:95522	MGI	MGI:95522	Fgfr1	fibroblast growth factor receptor 1	protein coding gene
+MGI:95523	MGI	MGI:95523	Fgfr2	fibroblast growth factor receptor 2	protein coding gene
+MGI:95524	MGI	MGI:95524	Fgfr3	fibroblast growth factor receptor 3	protein coding gene
+MGI:95525	MGI	MGI:95525	Fgfr4	fibroblast growth factor receptor 4	protein coding gene
+MGI:95527	MGI	MGI:95527	Fgr	FGR proto-oncogene, Src family tyrosine kinase	protein coding gene
+MGI:95558	MGI	MGI:95558	Flt1	FMS-like tyrosine kinase 1	protein coding gene
+MGI:95559	MGI	MGI:95559	Flt3	FMS-like tyrosine kinase 3	protein coding gene
+MGI:95561	MGI	MGI:95561	Flt4	FMS-like tyrosine kinase 4	protein coding gene
+MGI:1339758	MGI	MGI:1339758	Csf1r	colony stimulating factor 1 receptor	protein coding gene
+MGI:1928394	MGI	MGI:1928394	Mtor	mechanistic target of rapamycin kinase	protein coding gene
+MGI:103265	MGI	MGI:103265	Frk	fyn-related kinase	protein coding gene
+MGI:1920831	MGI	MGI:1920831	Stk36	serine/threonine kinase 36	protein coding gene
+MGI:95602	MGI	MGI:95602	Fyn	Fyn proto-oncogene	protein coding gene
+MGI:1860085	MGI	MGI:1860085	Stk19	serine/threonine kinase 19	protein coding gene
+MGI:2442153	MGI	MGI:2442153	Gak	cyclin G associated kinase	protein coding gene
+MGI:1346883	MGI	MGI:1346883	Map4k2	mitogen-activated protein kinase kinase kinase kinase 2	protein coding gene
+MGI:1353427	MGI	MGI:1353427	Eif2ak4	eukaryotic translation initiation factor 2 alpha kinase 4	protein coding gene
+MGI:95801	MGI	MGI:95801	Grk4	G protein-coupled receptor kinase 4	protein coding gene
+MGI:109161	MGI	MGI:109161	Grk5	G protein-coupled receptor kinase 5	protein coding gene
+MGI:1347078	MGI	MGI:1347078	Grk6	G protein-coupled receptor kinase 6	protein coding gene
+MGI:1861437	MGI	MGI:1861437	Gsk3b	glycogen synthase kinase 3 beta	protein coding gene
+MGI:2135756	MGI	MGI:2135756	Hspb8	heat shock protein 8	protein coding gene
+MGI:1194498	MGI	MGI:1194498	Haspin	histone H3 associated protein kinase	protein coding gene
+MGI:96052	MGI	MGI:96052	Hck	hemopoietic cell kinase	protein coding gene
+MGI:2443276	MGI	MGI:2443276	Tnni3k	TNNI3 interacting kinase	protein coding gene
+MGI:1314873	MGI	MGI:1314873	Hipk1	homeodomain interacting protein kinase 1	protein coding gene
+MGI:1314872	MGI	MGI:1314872	Hipk2	homeodomain interacting protein kinase 2	protein coding gene
+MGI:1314882	MGI	MGI:1314882	Hipk3	homeodomain interacting protein kinase 3	protein coding gene
+MGI:1353448	MGI	MGI:1353448	Eif2ak1	eukaryotic translation initiation factor 2 alpha kinase 1	protein coding gene
+MGI:106903	MGI	MGI:106903	Gucy2c	guanylate cyclase 2c	protein coding gene
+MGI:1347352	MGI	MGI:1347352	Hunk	hormonally upregulated Neu-associated kinase	protein coding gene
+MGI:1934157	MGI	MGI:1934157	Ick	intestinal cell kinase	protein coding gene
+MGI:96433	MGI	MGI:96433	Igf1r	insulin-like growth factor I receptor	protein coding gene
+MGI:99484	MGI	MGI:99484	Chuk	conserved helix-loop-helix ubiquitous kinase	protein coding gene
+MGI:1338071	MGI	MGI:1338071	Ikbkb	inhibitor of kappaB kinase beta	protein coding gene
+MGI:1929612	MGI	MGI:1929612	Ikbke	inhibitor of kappaB kinase epsilon	protein coding gene
+MGI:1346320	MGI	MGI:1346320	Taf10	TATA-box binding protein associated factor 10	protein coding gene
+MGI:96575	MGI	MGI:96575	Insr	insulin receptor	protein coding gene
+MGI:107420	MGI	MGI:107420	Irak1	interleukin-1 receptor-associated kinase 1	protein coding gene
+MGI:2429603	MGI	MGI:2429603	Irak2	interleukin-1 receptor-associated kinase 2	protein coding gene
+MGI:1921164	MGI	MGI:1921164	Irak3	interleukin-1 receptor-associated kinase 3	protein coding gene
+MGI:2182474	MGI	MGI:2182474	Irak4	interleukin-1 receptor-associated kinase 4	protein coding gene
+MGI:1930134	MGI	MGI:1930134	Ern1	endoplasmic reticulum (ER) to nucleus signalling 1	protein coding gene
+MGI:1349436	MGI	MGI:1349436	Ern2	endoplasmic reticulum (ER) to nucleus signalling 2	protein coding gene
+MGI:1346037	MGI	MGI:1346037	Insrr	insulin receptor-related receptor	protein coding gene
+MGI:96621	MGI	MGI:96621	Itk	IL2 inducible T cell kinase	protein coding gene
+MGI:96628	MGI	MGI:96628	Jak1	Janus kinase 1	protein coding gene
+MGI:96629	MGI	MGI:96629	Jak2	Janus kinase 2	protein coding gene
+MGI:99928	MGI	MGI:99928	Jak3	Janus kinase 3	protein coding gene
+MGI:1346861	MGI	MGI:1346861	Mapk8	mitogen-activated protein kinase 8	protein coding gene
+MGI:1346862	MGI	MGI:1346862	Mapk9	mitogen-activated protein kinase 9	protein coding gene
+MGI:1346863	MGI	MGI:1346863	Mapk10	mitogen-activated protein kinase 10	protein coding gene
+MGI:96683	MGI	MGI:96683	Kdr	kinase insert domain protein receptor	protein coding gene
+MGI:1925503	MGI	MGI:1925503	Map4k5	mitogen-activated protein kinase kinase kinase kinase 5	protein coding gene
+MGI:2154405	MGI	MGI:2154405	Map4k3	mitogen-activated protein kinase kinase kinase kinase 3	protein coding gene
+MGI:1341908	MGI	MGI:1341908	Uhmk1	U2AF homology motif (UHM) kinase 1	protein coding gene
+MGI:96677	MGI	MGI:96677	Kit	KIT proto-oncogene receptor tyrosine kinase	protein coding gene
+MGI:1920957	MGI	MGI:106025	Gucy2g	guanylate cyclase 2g	protein coding gene
+MGI:105051	MGI	MGI:105051	Ksr1	kinase suppressor of ras 1	protein coding gene
+MGI:1333883	MGI	MGI:1333883	Lats1	large tumor suppressor	protein coding gene
+MGI:1354386	MGI	MGI:1354386	Lats2	large tumor suppressor 2	protein coding gene
+MGI:96756	MGI	MGI:96756	Lck	lymphocyte protein tyrosine kinase	protein coding gene
+MGI:104572	MGI	MGI:104572	Limk1	LIM-domain containing, protein kinase	protein coding gene
+MGI:1197517	MGI	MGI:1197517	Limk2	LIM motif-containing protein kinase 2	protein coding gene
+MGI:1341870	MGI	MGI:1341870	Stk11	serine/threonine kinase 11	protein coding gene
+MGI:1197518	MGI	MGI:1197518	Aatk	apoptosis-associated tyrosine kinase	protein coding gene
+MGI:1099439	MGI	MGI:1099439	Stk10	serine/threonine kinase 10	protein coding gene
+MGI:2442723	MGI	MGI:2142227	Lrrk1	leucine-rich repeat kinase 1	protein coding gene
+MGI:1913975	MGI	MGI:1913975	Lrrk2	leucine-rich repeat kinase 2	protein coding gene
+MGI:96840	MGI	MGI:96840	Ltk	leukocyte tyrosine kinase	protein coding gene
+MGI:96892	MGI	MGI:96892	Lyn	LYN proto-oncogene, Src family tyrosine kinase	protein coding gene
+MGI:2444243	MGI	MGI:2444243	Map3k13	mitogen-activated protein kinase kinase kinase 13	protein coding gene
+MGI:96913	MGI	MGI:96913	Mak	male germ cell-associated kinase	protein coding gene
+MGI:1346866	MGI	MGI:1346866	Map2k1	mitogen-activated protein kinase kinase 1	protein coding gene
+MGI:1346867	MGI	MGI:1346867	Map2k2	mitogen-activated protein kinase kinase 2	protein coding gene
+MGI:1346868	MGI	MGI:1346868	Map2k3	mitogen-activated protein kinase kinase 3	protein coding gene
+MGI:1346869	MGI	MGI:1346869	Map2k4	mitogen-activated protein kinase kinase 4	protein coding gene
+MGI:1346345	MGI	MGI:1346345	Map2k5	mitogen-activated protein kinase kinase 5	protein coding gene
+MGI:1346870	MGI	MGI:1346870	Map2k6	mitogen-activated protein kinase kinase 6	protein coding gene
+MGI:1346871	MGI	MGI:1346871	Map2k7	mitogen-activated protein kinase kinase 7	protein coding gene
+MGI:1346872	MGI	MGI:1346872	Map3k1	mitogen-activated protein kinase kinase kinase 1	protein coding gene
+MGI:1346873	MGI	MGI:1346873	Map3k2	mitogen-activated protein kinase kinase kinase 2	protein coding gene
+MGI:1346874	MGI	MGI:1346874	Map3k3	mitogen-activated protein kinase kinase kinase 3	protein coding gene
+MGI:1346875	MGI	MGI:1346875	Map3k4	mitogen-activated protein kinase kinase kinase 4	protein coding gene
+MGI:1346876	MGI	MGI:1346876	Map3k5	mitogen-activated protein kinase kinase kinase 5	protein coding gene
+MGI:1855691	MGI	MGI:1855691	Map3k6	mitogen-activated protein kinase kinase kinase 6	protein coding gene
+MGI:109298	MGI	MGI:109298	Mapkapk2	MAP kinase-activated protein kinase 2	protein coding gene
+MGI:2143163	MGI	MGI:2143163	Mapkapk3	mitogen-activated protein kinase-activated protein kinase 3	protein coding gene
+MGI:1333110	MGI	MGI:1333110	Mapkapk5	MAP kinase-activated protein kinase 5	protein coding gene
+MGI:2138592	MGI	MGI:2664902	Mark1	MAP/microtubule affinity regulating kinase 1	protein coding gene
+MGI:99638	MGI	MGI:99638	Mark2	MAP/microtubule affinity regulating kinase 2	protein coding gene
+MGI:1920955	MGI	MGI:1920955	Mark4	MAP/microtubule affinity regulating kinase 4	protein coding gene
+MGI:1351487	MGI	MGI:1351487	Smok2a	sperm motility kinase 2A	protein coding gene
+MGI:1351488	MGI	MGI:1351488	Smok1	sperm motility kinase 1	protein coding gene
+MGI:1861901	MGI	MGI:1861901	Mast1	microtubule associated serine/threonine kinase 1	protein coding gene
+MGI:894676	MGI	MGI:894676	Mast2	microtubule associated serine/threonine kinase 2	protein coding gene
+MGI:1918885	MGI	MGI:1918885	Mast4	microtubule associated serine/threonine kinase family member 4	protein coding gene
+MGI:1914371	MGI	MGI:1914371	Mastl	microtubule associated serine/threonine kinase-like	protein coding gene
+MGI:106924	MGI	MGI:106924	Melk	maternal embryonic leucine zipper kinase	protein coding gene
+MGI:96965	MGI	MGI:96965	Mertk	c-mer proto-oncogene tyrosine kinase	protein coding gene
+MGI:96969	MGI	MGI:96969	Met	met proto-oncogene	protein coding gene
+MGI:105062	MGI	MGI:105062	Amhr2	anti-Mullerian hormone type 2 receptor	protein coding gene
+MGI:2449952	MGI	MGI:2449952	Map3k9	mitogen-activated protein kinase kinase kinase 9	protein coding gene
+MGI:1920282	MGI	MGI:1920282	Ttc9b	tetratricopeptide repeat domain 9B	protein coding gene
+MGI:1346880	MGI	MGI:1346880	Map3k11	mitogen-activated protein kinase kinase kinase 11	protein coding gene
+MGI:1921818	MGI	MGI:1921818	Mlkl	mixed lineage kinase domain-like	protein coding gene
+MGI:894316	MGI	MGI:894316	Mknk1	MAP kinase-interacting serine/threonine kinase 1	protein coding gene
+MGI:894279	MGI	MGI:894279	Mknk2	MAP kinase-interacting serine/threonine kinase 2	protein coding gene
+MGI:1347040	MGI	MGI:1336881	Mok	MOK protein kinase	protein coding gene
+MGI:1313271	MGI	MGI:1313271	Stk16	serine/threonine kinase 16	protein coding gene
+MGI:2441841	MGI	MGI:2441841	Cdc42bpa	CDC42 binding protein kinase alpha	protein coding gene
+MGI:1920336	MGI	MGI:1920336	Rps6ka5	ribosomal protein S6 kinase, polypeptide 5	protein coding gene
+MGI:1930076	MGI	MGI:1930076	Rps6ka4	ribosomal protein S6 kinase, polypeptide 4	protein coding gene
+MGI:1891338	MGI	MGI:1891338	Srpk3	serine/arginine-rich protein specific kinase 3	protein coding gene
+MGI:1929004	MGI	MGI:1929004	Stk4	serine/threonine kinase 4	protein coding gene
+MGI:1928487	MGI	MGI:1928487	Stk3	serine/threonine kinase 3	protein coding gene
+MGI:1353637	MGI	MGI:2385007	Stk24	serine/threonine kinase 24	protein coding gene
+MGI:1917665	MGI	MGI:1917665	Stk26	serine/threonine kinase 26	protein coding gene
+MGI:103581	MGI	MGI:103581	Musk	muscle, skeletal, receptor tyrosine kinase	protein coding gene
+MGI:2183924	MGI	MGI:2183924	Myo3a	myosin IIIA	protein coding gene
+MGI:2443983	MGI	MGI:2448580	Myo3b	myosin IIIB	protein coding gene
+MGI:2137630	MGI	MGI:2137630	Pkmyt1	protein kinase, membrane associated tyrosine/threonine 1	protein coding gene
+MGI:2442572	MGI	MGI:2442572	Stk38	serine/threonine kinase 38	protein coding gene
+MGI:1922250	MGI	MGI:1922250	Stk38l	serine/threonine kinase 38 like	protein coding gene
+MGI:97303	MGI	MGI:97303	Nek1	NIMA (never in mitosis gene a)-related expressed kinase 1	protein coding gene
+MGI:2442276	MGI	MGI:2442276	Nek11	NIMA (never in mitosis gene a)-related expressed kinase 11	protein coding gene
+MGI:109359	MGI	MGI:109359	Nek2	NIMA (never in mitosis gene a)-related expressed kinase 2	protein coding gene
+MGI:1344371	MGI	MGI:1344371	Nek3	NIMA (never in mitosis gene a)-related expressed kinase 3	protein coding gene
+MGI:1344404	MGI	MGI:1344404	Nek4	NIMA (never in mitosis gene a)-related expressed kinase 4	protein coding gene
+MGI:2142824	MGI	MGI:2142824	Nek5	NIMA (never in mitosis gene a)-related expressed kinase 5	protein coding gene
+MGI:1891638	MGI	MGI:1891638	Nek6	NIMA (never in mitosis gene a)-related expressed kinase 6	protein coding gene
+MGI:1890645	MGI	MGI:1890645	Nek7	NIMA (never in mitosis gene a)-related expressed kinase 7	protein coding gene
+MGI:1890646	MGI	MGI:1890646	Nek8	NIMA (never in mitosis gene a)-related expressed kinase 8	protein coding gene
+MGI:2442375	MGI	MGI:2387995	Nek9	NIMA (never in mitosis gene a)-related expressed kinase 9	protein coding gene
+MGI:1858204	MGI	MGI:1858204	Map3k14	mitogen-activated protein kinase kinase kinase 14	protein coding gene
+MGI:2442399	MGI	MGI:2442399	Nim1k	NIM1 serine/threonine protein kinase	protein coding gene
+MGI:1201387	MGI	MGI:1201387	Nlk	nemo like kinase	protein coding gene
+MGI:2183436	MGI	MGI:2183436	Nrbp1	nuclear receptor binding protein 1	protein coding gene
+MGI:1925226	MGI	MGI:1925226	Nuak1	NUAK family, SNF1-like kinase, 1	protein coding gene
+MGI:1921387	MGI	MGI:1921387	Nuak2	NUAK family, SNF1-like kinase, 2	protein coding gene
+MGI:1917378	MGI	MGI:1917378	Oxsr1	oxidative-stress responsive 1	protein coding gene
+MGI:1346865	MGI	MGI:1346865	Mapk14	mitogen-activated protein kinase 14	protein coding gene
+MGI:1338024	MGI	MGI:1338024	Mapk11	mitogen-activated protein kinase 11	protein coding gene
+MGI:1346864	MGI	MGI:1346864	Mapk13	mitogen-activated protein kinase 13	protein coding gene
+MGI:1353438	MGI	MGI:1353438	Mapk12	mitogen-activated protein kinase 12	protein coding gene
+MGI:1919758	MGI	MGI:1270849	Rps6kb1	ribosomal protein S6 kinase, polypeptide 1	protein coding gene
+MGI:1927343	MGI	MGI:1927343	Rps6kb2	ribosomal protein S6 kinase, polypeptide 2	protein coding gene
+MGI:1339975	MGI	MGI:1339975	Pak1	p21 protein (Cdc42/Rac)-activated kinase 1	protein coding gene
+MGI:1339984	MGI	MGI:1339984	Pak2	p21 protein (Cdc42/Rac)-activated kinase 2	protein coding gene
+MGI:1339656	MGI	MGI:1339656	Pak3	p21 protein (Cdc42/Rac)-activated kinase 3	protein coding gene
+MGI:1917834	MGI	MGI:1917834	Pak4	p21 protein (Cdc42/Rac)-activated kinase 4	protein coding gene
+MGI:1920334	MGI	MGI:1920334	Pak7	p21 protein (Cdc42/Rac)-activated kinase 7	protein coding gene
+MGI:2155936	MGI	MGI:2155936	Pask	PAS domain containing serine/threonine kinase	protein coding gene
+MGI:1289156	MGI	MGI:1289156	Pbk	PDZ binding kinase	protein coding gene
+MGI:97516	MGI	MGI:97516	Cdk16	cyclin-dependent kinase 16	protein coding gene
+MGI:97517	MGI	MGI:97517	Cdk17	cyclin-dependent kinase 17	protein coding gene
+MGI:97518	MGI	MGI:97518	Cdk18	cyclin-dependent kinase 18	protein coding gene
+MGI:97530	MGI	MGI:97530	Pdgfra	platelet derived growth factor receptor, alpha polypeptide	protein coding gene
+MGI:97531	MGI	MGI:97531	Pdgfrb	platelet derived growth factor receptor, beta polypeptide	protein coding gene
+MGI:1926119	MGI	MGI:1926119	Pdk1	pyruvate dehydrogenase kinase, isoenzyme 1	protein coding gene
+MGI:1343087	MGI	MGI:1343087	Pdk2	pyruvate dehydrogenase kinase, isoenzyme 2	protein coding gene
+MGI:2384308	MGI	MGI:2384308	Pdk3	pyruvate dehydrogenase kinase, isoenzyme 3	protein coding gene
+MGI:1351481	MGI	MGI:1351481	Pdk4	pyruvate dehydrogenase kinase, isoenzyme 4	protein coding gene
+MGI:1338068	MGI	MGI:1338068	Pdpk1	3-phosphoinositide dependent protein kinase 1	protein coding gene
+MGI:1341830	MGI	MGI:1341830	Eif2ak3	eukaryotic translation initiation factor 2 alpha kinase 3	protein coding gene
+MGI:894318	MGI	MGI:894318	Cdk14	cyclin-dependent kinase 14	protein coding gene
+MGI:97579	MGI	MGI:97579	Phkg1	phosphorylase kinase gamma 1	protein coding gene
+MGI:1916211	MGI	MGI:1916211	Phkg2	phosphorylase kinase, gamma 2 (testis)	protein coding gene
+MGI:1922919	MGI	MGI:1922919	Pik3r4	phosphoinositide-3-kinase regulatory subunit 4	protein coding gene
+MGI:97584	MGI	MGI:97584	Pim1	proviral integration site 1	protein coding gene
+MGI:97587	MGI	MGI:97587	Pim2	proviral integration site 2	protein coding gene
+MGI:1916193	MGI	MGI:1916193	Pink1	PTEN induced putative kinase 1	protein coding gene
+MGI:88353	MGI	MGI:88353	Cdk11b	cyclin-dependent kinase 11B	protein coding gene
+MGI:97592	MGI	MGI:97592	Prkaca	protein kinase, cAMP dependent, catalytic, alpha	protein coding gene
+MGI:97594	MGI	MGI:97594	Prkacb	protein kinase, cAMP dependent, catalytic, beta	protein coding gene
+MGI:97595	MGI	MGI:97595	Prkca	protein kinase C, alpha	protein coding gene
+MGI:97596	MGI	MGI:97596	Prkcb	protein kinase C, beta	protein coding gene
+MGI:97598	MGI	MGI:97598	Prkcd	protein kinase C, delta	protein coding gene
+MGI:97599	MGI	MGI:97599	Prkce	protein kinase C, epsilon	protein coding gene
+MGI:97600	MGI	MGI:97600	Prkch	protein kinase C, eta	protein coding gene
+MGI:97597	MGI	MGI:97597	Prkcg	protein kinase C, gamma	protein coding gene
+MGI:104625	MGI	MGI:99260	Prkci	protein kinase C, iota	protein coding gene
+MGI:97601	MGI	MGI:97601	Prkcq	protein kinase C, theta	protein coding gene
+MGI:97602	MGI	MGI:97602	Prkcz	protein kinase C, zeta	protein coding gene
+MGI:99879	MGI	MGI:99879	Prkd1	protein kinase D1	protein coding gene
+MGI:2141917	MGI	MGI:2141917	Prkd2	protein kinase D2	protein coding gene
+MGI:1922542	MGI	MGI:1922542	Prkd3	protein kinase D3	protein coding gene
+MGI:108174	MGI	MGI:108174	Prkg1	protein kinase, cGMP-dependent, type I	protein coding gene
+MGI:108173	MGI	MGI:108173	Prkg2	protein kinase, cGMP-dependent, type II	protein coding gene
+MGI:2444757	MGI	MGI:108022	Pkn1	protein kinase N1	protein coding gene
+MGI:1925929	MGI	MGI:109211	Pkn2	protein kinase N2	protein coding gene
+MGI:2388285	MGI	MGI:2388285	Pkn3	protein kinase N3	protein coding gene
+MGI:1353449	MGI	MGI:1353449	Eif2ak2	eukaryotic translation initiation factor 2-alpha kinase 2	protein coding gene
+MGI:97621	MGI	MGI:97621	Plk1	polo like kinase 1	protein coding gene
+MGI:1099790	MGI	MGI:1099790	Plk2	polo like kinase 2	protein coding gene
+MGI:109604	MGI	MGI:109604	Plk3	polo like kinase 3	protein coding gene
+MGI:101783	MGI	MGI:101783	Plk4	polo like kinase 4	protein coding gene
+MGI:1309999	MGI	MGI:1309999	Prkx	protein kinase, X-linked	protein coding gene
+MGI:109584	MGI	MGI:109584	Prpf4b	pre-mRNA processing factor 4B	protein coding gene
+MGI:1914050	MGI	MGI:1914050	Trp53rkb	transformation related protein 53 regulating kinase B	protein coding gene
+MGI:2142796	MGI	MGI:3528383	Pskh1	protein serine kinase H1	protein coding gene
+MGI:104908	MGI	MGI:104908	Ptk2b	PTK2 protein tyrosine kinase 2 beta	protein coding gene
+MGI:2445031	MGI	MGI:2445031	Sik2	salt inducible kinase 2	protein coding gene
+MGI:1917911	MGI	MGI:2446296	Sik3	SIK family kinase 3	protein coding gene
+MGI:97847	MGI	MGI:97847	Raf1	v-raf-leukemia viral oncogene 1	protein coding gene
+MGI:97902	MGI	MGI:97902	Ret	ret proto-oncogene	protein coding gene
+MGI:1345146	MGI	MGI:1345146	Grk1	G protein-coupled receptor kinase 1	protein coding gene
+MGI:1918590	MGI	MGI:1918590	Riok1	RIO kinase 1	protein coding gene
+MGI:1914295	MGI	MGI:1914295	Riok2	RIO kinase 2	protein coding gene
+MGI:1914128	MGI	MGI:1914128	Riok3	RIO kinase 3	protein coding gene
+MGI:108212	MGI	MGI:108212	Ripk1	receptor (TNFRSF)-interacting serine-threonine kinase 1	protein coding gene
+MGI:1891456	MGI	MGI:1891456	Ripk2	receptor (TNFRSF)-interacting serine-threonine kinase 2	protein coding gene
+MGI:2154952	MGI	MGI:2154952	Ripk3	receptor-interacting serine-threonine kinase 3	protein coding gene
+MGI:1098272	MGI	MGI:1098272	Rnasel	ribonuclease L (2', 5'-oligoisoadenylate synthetase-dependent)	protein coding gene
+MGI:107927	MGI	MGI:107927	Rock1	Rho-associated coiled-coil containing protein kinase 1	protein coding gene
+MGI:107926	MGI	MGI:107926	Rock2	Rho-associated coiled-coil containing protein kinase 2	protein coding gene
+MGI:99614	MGI	MGI:99614	Mst1r	macrophage stimulating 1 receptor (c-met-related tyrosine kinase)	protein coding gene
+MGI:1347520	MGI	MGI:1347520	Ror1	receptor tyrosine kinase-like orphan receptor 1	protein coding gene
+MGI:1347521	MGI	MGI:1347521	Ror2	receptor tyrosine kinase-like orphan receptor 2	protein coding gene
+MGI:97999	MGI	MGI:97999	Ros1	Ros1 proto-oncogene	protein coding gene
+MGI:1342290	MGI	MGI:1342290	Rps6ka2	ribosomal protein S6 kinase, polypeptide 2	protein coding gene
+MGI:104557	MGI	MGI:104557	Rps6ka3	ribosomal protein S6 kinase polypeptide 3	protein coding gene
+MGI:104558	MGI	MGI:104558	Rps6ka1	ribosomal protein S6 kinase polypeptide 1	protein coding gene
+MGI:1914321	MGI	MGI:1914321	Rps6ka6	ribosomal protein S6 kinase polypeptide 6	protein coding gene
+MGI:2138695	MGI	MGI:2443419	Rps6kc1	ribosomal protein S6 kinase polypeptide 1	protein coding gene
+MGI:2443413	MGI	MGI:2443413	Rps6kl1	ribosomal protein S6 kinase-like 1	protein coding gene
+MGI:101766	MGI	MGI:101766	Ryk	receptor-like tyrosine kinase	protein coding gene
+MGI:2135937	MGI	MGI:2135937	Sbk1	SH3-binding kinase 1	protein coding gene
+MGI:1931787	MGI	MGI:1931787	Scyl1	SCY1-like 1 (S. cerevisiae)	protein coding gene
+MGI:1289172	MGI	MGI:1289172	Scyl2	SCY1-like 2 (S. cerevisiae)	protein coding gene
+MGI:1921385	MGI	MGI:1921385	Scyl3	SCY1-like 3 (S. cerevisiae)	protein coding gene
+MGI:1340062	MGI	MGI:1340062	Sgk1	serum/glucocorticoid regulated kinase 1	protein coding gene
+MGI:1921903	MGI	MGI:1921903	Pomk	protein-O-mannose kinase	protein coding gene
+MGI:1351318	MGI	MGI:1351318	Sgk2	serum/glucocorticoid regulated kinase 2	protein coding gene
+MGI:1196223	MGI	MGI:1196223	Prag1	PEAK1 related kinase activating pseudokinase 1	protein coding gene
+MGI:2442366	MGI	MGI:2442366	Peak1	pseudopodium-enriched atypical kinase 1	protein coding gene
+MGI:2182368	MGI	MGI:2182368	Sgk3	serum/glucocorticoid regulated kinase 3	protein coding gene
+MGI:1933227	MGI	MGI:1933227	Tex14	testis expressed gene 14	protein coding gene
+MGI:1924735	MGI	MGI:1924735	Stk31	serine threonine kinase 31	protein coding gene
+MGI:104832	MGI	MGI:2147077	Pkdcc	protein kinase domain containing, cytoplasmic	protein coding gene
+MGI:1921428	MGI	MGI:1921428	Stk40	serine/threonine kinase 40	protein coding gene
+MGI:1925064	MGI	MGI:1925064	Dstyk	dual serine/threonine and tyrosine protein kinase	protein coding gene
+MGI:104754	MGI	MGI:104754	Sik1	salt inducible kinase 1	protein coding gene
+MGI:2139434	MGI	MGI:2139434	Mylk2	myosin, light polypeptide kinase 2, skeletal muscle	protein coding gene
+MGI:103241	MGI	MGI:103241	Slk	STE20-like kinase	protein coding gene
+MGI:1289230	MGI	MGI:1289230	Pxk	PX domain containing serine/threonine kinase	protein coding gene
+MGI:2444194	MGI	MGI:1919742	Smg1	SMG1 homolog, phosphatidylinositol 3-kinase-related kinase (C. elegans)	protein coding gene
+MGI:894806	MGI	MGI:894806	Mylk	myosin, light polypeptide kinase	protein coding gene
+MGI:108104	MGI	MGI:108104	Snrk	SNF related kinase	protein coding gene
+MGI:109282	MGI	MGI:109282	Speg	SPEG complex locus	protein coding gene
+MGI:98397	MGI	MGI:98397	Src	Rous sarcoma oncogene	protein coding gene
+MGI:101865	MGI	MGI:101865	Srms	src-related kinase lacking C-terminal regulatory tyrosine and N-terminal myristylation sites	protein coding gene
+MGI:106908	MGI	MGI:106908	Srpk1	serine/arginine-rich protein specific kinase 1	protein coding gene
+MGI:1201408	MGI	MGI:1201408	Srpk2	serine/arginine-rich protein specific kinase 2	protein coding gene
+MGI:2148775	MGI	MGI:2148775	Tssk6	testis-specific serine kinase 6	protein coding gene
+MGI:1858416	MGI	MGI:1858416	Stk39	serine/threonine kinase 39	protein coding gene
+MGI:1919399	MGI	MGI:1919399	Strada	STE20-related kinase adaptor alpha	protein coding gene
+MGI:91858	MGI	MGI:2144047	Stradb	STE20-related kinase adaptor beta	protein coding gene
+MGI:2141396	MGI	MGI:2141396	Styk1	serine/threonine/tyrosine kinase 1	protein coding gene
+MGI:99515	MGI	MGI:99515	Syk	spleen tyrosine kinase	protein coding gene
+MGI:2147953	MGI	MGI:1336878	Taf1	TATA-box binding protein associated factor 1	protein coding gene
+MGI:1346877	MGI	MGI:1346877	Map3k7	mitogen-activated protein kinase kinase kinase 7	protein coding gene
+MGI:2445052	MGI	MGI:2445052	Tbck	TBC1 domain containing kinase	protein coding gene
+MGI:1929658	MGI	MGI:1929658	Tbk1	TANK-binding kinase 1	protein coding gene
+MGI:98662	MGI	MGI:98662	Tec	tec protein tyrosine kinase	protein coding gene
+MGI:1201675	MGI	MGI:1201675	Tesk1	testis specific protein kinase 1	protein coding gene
+MGI:98728	MGI	MGI:98728	Tgfbr1	transforming growth factor, beta receptor I	protein coding gene
+MGI:98729	MGI	MGI:98729	Tgfbr2	transforming growth factor, beta receptor II	protein coding gene
+MGI:99906	MGI	MGI:99906	Tie1	tyrosine kinase with immunoglobulin-like and EGF-like domains 1	protein coding gene
+MGI:98664	MGI	MGI:98664	Tek	TEK receptor tyrosine kinase	protein coding gene
+MGI:109275	MGI	MGI:109275	Trim24	tripartite motif-containing 24	protein coding gene
+MGI:109274	MGI	MGI:109274	Trim28	tripartite motif-containing 28	protein coding gene
+MGI:2137357	MGI	MGI:2137357	Trim33	tripartite motif-containing 33	protein coding gene
+MGI:2441683	MGI	MGI:2441683	Tlk1	tousled-like kinase 1	protein coding gene
+MGI:1346023	MGI	MGI:1346023	Tlk2	tousled-like kinase 2 (Arabidopsis)	protein coding gene
+MGI:1930958	MGI	MGI:1930958	Tnk1	tyrosine kinase, non-receptor, 1	protein coding gene
+MGI:1919628	MGI	MGI:2685385	Kalrn	kalirin, RhoGEF kinase	protein coding gene
+MGI:2443397	MGI	MGI:2443397	Trib1	tribbles pseudokinase 1	protein coding gene
+MGI:2145021	MGI	MGI:2145021	Trib2	tribbles pseudokinase 2	protein coding gene
+MGI:1345675	MGI	MGI:1345675	Trib3	tribbles pseudokinase 3	protein coding gene
+MGI:2145897	MGI	MGI:1927230	Trio	triple functional domain (PTPRF interacting)	protein coding gene
+MGI:97383	MGI	MGI:97383	Ntrk1	neurotrophic tyrosine kinase, receptor, type 1	protein coding gene
+MGI:97384	MGI	MGI:97384	Ntrk2	neurotrophic tyrosine kinase, receptor, type 2	protein coding gene
+MGI:97385	MGI	MGI:97385	Ntrk3	neurotrophic tyrosine kinase, receptor, type 3	protein coding gene
+MGI:2140918	MGI	MGI:2153272	Trrap	transformation/transcription domain-associated protein	protein coding gene
+MGI:1347557	MGI	MGI:1347557	Tssk1	testis-specific serine kinase 1	protein coding gene
+MGI:1347559	MGI	MGI:1347559	Tssk2	testis-specific serine kinase 2	protein coding gene
+MGI:1929914	MGI	MGI:1929914	Tssk3	testis-specific serine kinase 3	protein coding gene
+MGI:1918349	MGI	MGI:1918349	Tssk4	testis-specific serine kinase 4	protein coding gene
+MGI:1920792	MGI	MGI:1920792	Tssk5	testis-specific serine kinase 5	protein coding gene
+MGI:2443971	MGI	MGI:2155779	Ttbk2	tau tubulin kinase 2	protein coding gene
+MGI:1194921	MGI	MGI:1194921	Ttk	Ttk protein kinase	protein coding gene
+MGI:98864	MGI	MGI:98864	Ttn	titin	protein coding gene
+MGI:102960	MGI	MGI:102960	Txk	TXK tyrosine kinase	protein coding gene
+MGI:1929470	MGI	MGI:1929470	Tyk2	tyrosine kinase 2	protein coding gene
+MGI:104294	MGI	MGI:104294	Tyro3	TYRO3 protein tyrosine kinase 3	protein coding gene
+MGI:1270126	MGI	MGI:1270126	Ulk1	unc-51 like kinase 1	protein coding gene
+MGI:1352758	MGI	MGI:1352758	Ulk2	unc-51 like kinase 2	protein coding gene
+MGI:1918992	MGI	MGI:1918992	Ulk3	unc-51-like kinase 3	protein coding gene
+MGI:1921622	MGI	MGI:1921622	Ulk4	unc-51-like kinase 4	protein coding gene
+MGI:2384296	MGI	MGI:2384296	Camkv	CaM kinase-like vesicle-associated	protein coding gene
+MGI:1261847	MGI	MGI:1261847	Vrk1	vaccinia related kinase 1	protein coding gene
+MGI:1917172	MGI	MGI:1917172	Vrk2	vaccinia related kinase 2	protein coding gene
+MGI:2141945	MGI	MGI:2182465	Vrk3	vaccinia related kinase 3	protein coding gene
+MGI:103075	MGI	MGI:103075	Wee1	WEE 1 homolog 1 (S. pombe)	protein coding gene
+MGI:2442092	MGI	MGI:2442092	Wnk1	WNK lysine deficient protein kinase 1	protein coding gene
+MGI:1917097	MGI	MGI:1917097	Wnk4	WNK lysine deficient protein kinase 4	protein coding gene
+MGI:2442403	MGI	MGI:2442403	Stk32a	serine/threonine kinase 32A	protein coding gene
+MGI:1927552	MGI	MGI:1927552	Stk32b	serine/threonine kinase 32B	protein coding gene
+MGI:99147	MGI	MGI:99147	Yes1	YES proto-oncogene 1, Src family tyrosine kinase	protein coding gene
+MGI:1891699	MGI	MGI:1891699	Stk25	serine/threonine kinase 25 (yeast)	protein coding gene
+MGI:1931274	MGI	MGI:2443258	Map3k20	mitogen-activated protein kinase kinase kinase 20	protein coding gene
+MGI:99613	MGI	MGI:99613	Zap70	zeta-chain (TCR) associated protein kinase	protein coding gene
+MGI:1349394	MGI	MGI:1349394	Map4k4	mitogen-activated protein kinase kinase kinase kinase 4	protein coding gene
+MGI:2444917	MGI	MGI:1916264	Tnik	TRAF2 and NCK interacting kinase	protein coding gene
+MGI:1355329	MGI	MGI:1355329	Mink1	misshapen-like kinase 1 (zebrafish)	protein coding gene
+MGI:1351326	MGI	MGI:1351326	Nrk	Nik related kinase	protein coding gene
