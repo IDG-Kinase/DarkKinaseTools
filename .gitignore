@@ -35,3 +35,6 @@ vignettes/*.pdf
 
 #Mac specific files
 *.DS_Store
+
+#Combiled R markdown docs
+*nb.html*
