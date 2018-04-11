@@ -15,3 +15,15 @@ devtools::install_github("gomezlab/DarkKinaseTools")
 ```
 
 # Usage
+
+After calling "library(DarkKinaseTools)", several tables of data are made available:
+
+* all_kinases: known kinases and corresponding identifiers
+* dark_kinases: dark kinases and corresponding identifiers 
+* mouse_human_gene_names: mouse kinases with links to human orthologs
+
+Calling help on any of these table names will provide an explanation of each column.
+
+# Data Sources/Production
+
+All of the data processing steps are outlined in the "data-raw" directory in several R Markdown documents.
