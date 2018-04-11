@@ -1,0 +1,50 @@
+---
+title: "Mouse Kinases"
+output: html_notebook
+---
+
+```{r,echo=FALSE}
+#Load required libraries
+library(data.table,)
+library(tidyverse)
+library(here)
+```
+
+The mouse kinases are relevant for situtations where we want to say something about the kinases in general, but the experiment was conducted with mice or mouse cells as opposed to human cells/samples. As such, we need a list of the mouse kinases, the corresponding orthologs and whether these orthologs are classified as dark kinases.
+
+## Kinase.com List
+
+Kinase.com maintains a list of mouse kinases (across several organisms), so I'll pull that list down and load it.
+
+```{r}
+if (! file.exists(here('data-raw/mouse_kinases/mouse_kinase_names.txt'))) {
+  download.file('http://kinase.com/mouse/tables/Table2.txt',
+                here('data-raw/mouse_kinases/mouse_kinase_names.txt'))
+}
+mouse_kinase_data = read_delim(here('data-raw/mouse_kinases/mouse_kinase_names.txt'),
+                               delim = '\t');
+
+#There is a messed up character in the cDNA confirms column (25), rename it to
+#make tab completion work again:
+colnames(mouse_kinase_data)[25] <- "cDNA confirms";
+```
+
+The kinase.com list is a bit confusing. As far as I can tell the "Gene Name" column is a sort of hybrid between the closest human gene name with some sort of addition when the mouse has more homologous genes than the human. Either way, it looks like the MGI (Mouse Genome Informatics) names are widely used, so I need to get those for each gene (refered to Jackson Labs Symbol). Unforntunately, many of the symbols are out of date (such as Ptk9). Assuming that the MGI Gene IDs (such as MGI:1100520) are still correct, I went to MGI's batch search tool (http://www.informatics.jax.org/batch), entered all the listed MGI IDs and saved the list back out. I'm not sure how to do this in R, so I'll leave this as a manual step.
+
+```{r}
+mouse_MGI_info = read_delim(here('data-raw/mouse_kinases/MGIBatchReport_20180406_101248.txt'),
+                            delim='\t') %>% select(Input,Symbol) %>%
+  rename(MGI_symbol = Symbol)
+
+#Add the Symbol data to the full mouse kinase set
+mouse_kinase_data = left_join(mouse_kinase_data,mouse_MGI_info,
+                              by=c("Jackson Labs MGI ID" = "Input"))
+
+mouse_human_gene_names = mouse_kinase_data %>%
+  filter(`Pseudogene?` != 'Yes') %>%
+  select(MGI_symbol,'Human Ortholog') %>%
+  rename(kinase_com_human_orthlog = 'Human Ortholog') %>%
+  filter(!is.na(MGI_symbol))
+
+devtools::use_data(mouse_human_gene_names, overwrite = TRUE)
+```
