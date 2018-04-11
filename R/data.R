@@ -8,7 +8,7 @@
 #'   \item{DRGC_symbol}{The symbol used int the DRGC documents, mostly idenfical to the hgnc_symbol, minus proteins without HGNC symbols}
 #' }
 #' @source NIH and the Dark Kinase DRGC
-"dark_kinase_list"
+"dark_kinases"
 
 #' All Human Kinases
 #'
