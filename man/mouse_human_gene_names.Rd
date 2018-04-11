@@ -4,20 +4,21 @@
 \name{mouse_human_gene_names}
 \alias{mouse_human_gene_names}
 \title{Mouse Kinases and Corresponding Human Orthologs}
-\format{A data frame with 555 rows and 2 columns
+\format{A data frame with 463 rows and 2 columns
 \describe{
-  \item{Mouse_gene_name}{The mouse kinase name}
-  \item{Human_ortholog}{The corresponding human ortholog gene name, if identified}
+  \item{MGI_symbol}{The kinase symbol from the MGI database}
+  \item{kinase_com_human_orthlog}{The corresponding human ortholog from kinase.com if identified}
 }}
 \source{
-\url{http://kinase.com/mouse/}
+\url{http://kinase.com/mouse/} and the MGI database
 }
 \usage{
 mouse_human_gene_names
 }
 \description{
 A dataset containing a list of mouse kinases and human orthologs, if present.
-This list is directly from the kinase.com website with the pseudogenes remove
-and most of the columns.
+This list is mostly from the kinase.com website with the pseudogenes removed
+and the mouse gene names updated to match the current listing in the Jackson
+Labs MGI data.
 }
 \keyword{datasets}
