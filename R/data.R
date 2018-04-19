@@ -40,3 +40,21 @@
 #' }
 #' @source \url{http://kinase.com/mouse/} and the MGI database
 "mouse_human_gene_names"
+
+
+#' Human Kinase Domain Locations
+#'
+#' A dataset containing a list of human kinase domain start and stop locations.
+#' The start and stop locations are coded by the position within the kinase, so
+#' a 250 amino acid kinase domain might start at position 200 and continue to
+#' position 450.
+#'
+#' @format A data frame with 516 rows and 3 columns
+#' \describe{
+#'   \item{kinase_com_name}{The name used on the kinase.com list, used for
+#'                          cross-referencing other lists from kinase.com}
+#'   \item{start}{First amino acid in the kinase domain}
+#'   \item{stop}{Last amino acid in the kinase domain}
+#' }
+#' @source \url{http://kinase.com/}
+"kin_domain_locations"

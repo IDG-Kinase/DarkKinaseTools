@@ -1,0 +1,74 @@
+---
+title: "Processing the Kinase Sequences and Domain Info"
+output: html_notebook
+---
+
+```{r,echo=FALSE}
+#Load required libraries
+library(tidyverse)
+library(readxl)
+library(here)
+library(devtools)
+```
+
+## Kinase.com Domains
+
+Extract the kinase domains from the list maintained at kinase.com and determine the protein location within
+
+```{r}
+kinome_com_file = here('data-raw','dark_kinases','kinase.com_list.xls')
+if (! file.exists(kinome_com_file)) {
+  download.file('http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls',
+                kinome_com_file);
+}
+
+kinase_com_list = readxl::read_xls(kinome_com_file) %>%
+  filter(`Pseudogene?` == "N") %>%
+  select(Name,Protein,'Kinase Domain',KD2_Sequence) %>%
+  rename(Kinase_domain = 'Kinase Domain') %>%
+  #There appear to be extra characters in the kinase domain field, probably
+  #related to other kinase domain alignments/problems with sequencing, let's
+  #remove those
+  mutate(Kinase_domain_clean = gsub('-','',Kinase_domain)) %>%
+  mutate(Kinase_domain_clean = gsub('[*]','',Kinase_domain_clean)) %>%
+  mutate(Protein_clean = gsub('[*]','',Protein)) %>%
+  #Dealing with cases where there isn't a perfect match to a given kinase domain
+  #on a protein by protein basis
+  mutate(Kinase_domain_clean = case_when(
+    Name == "HIPK4" ~ substr(Kinase_domain_clean,1,241),
+    TRUE ~ Kinase_domain_clean))
+
+kin_domain_locations = list();
+
+for (kinase_row in 1:dim(kinase_com_list)[1]) {
+  this_kin = kinase_com_list[kinase_row,]
+  if (!is.na(this_kin$Kinase_domain)) {
+    locate_hits = str_locate(this_kin$Protein_clean,this_kin$Kinase_domain_clean)
+    #Make sure we found a hit for each domain
+    if (length(locate_hits) == 0) {
+      print(paste('No Hits found for:' ,this_kin$Name))
+    }
+    
+    kin_domain_locations$kinase_com_name = c(kin_domain_locations$kinase_com_name,this_kin$Name)
+    kin_domain_locations$start = c(kin_domain_locations$start,locate_hits[1])
+    kin_domain_locations$stop = c(kin_domain_locations$stop,locate_hits[2])
+  }
+  
+  if (!is.na(this_kin$KD2_Sequence)) {
+    locate_hits = str_locate(this_kin$Protein_clean,this_kin$KD2_Sequence)
+    
+    if (length(locate_hits) == 0) {
+      print(paste('No Hits found for:' ,this_kin$Name))
+    }
+    
+    kin_domain_locations$kinase_com_name = c(kin_domain_locations$kinase_com_name,this_kin$Name)
+    kin_domain_locations$start = c(kin_domain_locations$start,locate_hits[1])
+    kin_domain_locations$stop = c(kin_domain_locations$stop,locate_hits[2])
+  }
+}
+
+kin_domain_locations = as.data.frame(kin_domain_locations)
+
+devtools::use_data(kin_domain_locations, overwrite = TRUE)
+```
+
