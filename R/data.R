@@ -55,6 +55,7 @@
 #'                          cross-referencing other lists from kinase.com}
 #'   \item{start}{First amino acid in the kinase domain}
 #'   \item{stop}{Last amino acid in the kinase domain}
+#'   \item{protein_length}{Number of Amino Acids in this protein}
 #' }
 #' @source \url{http://kinase.com/}
 "kin_domain_locations"
