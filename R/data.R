@@ -47,15 +47,15 @@
 #' A dataset containing a list of human kinase domain start and stop locations.
 #' The start and stop locations are coded by the position within the kinase, so
 #' a 250 amino acid kinase domain might start at position 200 and continue to
-#' position 450.
+#' position 450. The undocumented columns in this data set are identical to the
+#' data in the all_kinases data set. I found it convenient to have these
+#' additional identifiers here as well.
 #'
-#' @format A data frame with 516 rows and 3 columns
+#' @format A data frame with 516 rows and 8 columns
 #' \describe{
-#'   \item{kinase_com_name}{The name used on the kinase.com list, used for
-#'                          cross-referencing other lists from kinase.com}
+#'   \item{kinase_com_name}{The name used on the kinase.com list, used for cross-referencing other lists from kinase.com}
 #'   \item{start}{First amino acid in the kinase domain}
 #'   \item{stop}{Last amino acid in the kinase domain}
-#'   \item{protein_length}{Number of Amino Acids in this protein}
-#' }
+#'   \item{protein_length}{Number of Amino Acids in this protein} }
 #' @source \url{http://kinase.com/}
 "kin_domain_locations"
