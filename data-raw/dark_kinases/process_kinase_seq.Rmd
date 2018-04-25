@@ -9,6 +9,10 @@ library(tidyverse)
 library(readxl)
 library(here)
 library(devtools)
+#I know this is self referential, but I need to get access to some of the other
+#data sets in this package to get the Hugo name mappings, I really want a more
+#elegant way to do this
+library(DarkKinaseTools)
 ```
 
 ## Kinase.com Domains
@@ -73,6 +77,8 @@ for (kinase_row in 1:dim(kinase_com_list)[1]) {
 }
 
 kin_domain_locations = as.data.frame(kin_domain_locations)
+
+kin_domain_locations = left_join(kin_domain_locations,all_kinases)
 
 devtools::use_data(kin_domain_locations, overwrite = TRUE)
 ```
