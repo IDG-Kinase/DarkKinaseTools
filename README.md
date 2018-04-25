@@ -21,6 +21,7 @@ After calling "library(DarkKinaseTools)", several tables of data are made availa
 * all_kinases: known kinases and corresponding identifiers
 * dark_kinases: dark kinases and corresponding identifiers 
 * mouse_human_gene_names: mouse kinases with links to human orthologs
+* kin_domain_locations: location of kinase domains within proteins and overall protein lengths
 
 Calling help on any of these table names will provide an explanation of each column.
 
