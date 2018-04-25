@@ -16,9 +16,11 @@ kinase are human.
 \section{Datasets}{
 
 
-  \itemize{ \item dark_kinases: List of Dark Kinases \item all_kinases: List
-  of All Kinases \item mouse_human_gene_names: Mapping between human-mouse
-  kinase homologs \item kin_domain_locations: Listing of kinase domain
-  locations and protein lengths }
+  \itemize{
+    \item dark_kinases: List of Dark Kinases
+    \item all_kinases: List of All Kinases
+    \item mouse_human_gene_names: Mapping between human-mouse kinase homologs
+    \item kin_domain_locations: Listing of kinase domain locations and protein lengths
+  }
 }
 
