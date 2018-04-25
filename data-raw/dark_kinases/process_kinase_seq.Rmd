@@ -52,6 +52,8 @@ for (kinase_row in 1:dim(kinase_com_list)[1]) {
     kin_domain_locations$kinase_com_name = c(kin_domain_locations$kinase_com_name,this_kin$Name)
     kin_domain_locations$start = c(kin_domain_locations$start,locate_hits[1])
     kin_domain_locations$stop = c(kin_domain_locations$stop,locate_hits[2])
+    kin_domain_locations$protein_length = c(kin_domain_locations$protein_length,
+                                            str_length(this_kin$Protein_clean))
   }
   
   if (!is.na(this_kin$KD2_Sequence)) {
@@ -64,6 +66,9 @@ for (kinase_row in 1:dim(kinase_com_list)[1]) {
     kin_domain_locations$kinase_com_name = c(kin_domain_locations$kinase_com_name,this_kin$Name)
     kin_domain_locations$start = c(kin_domain_locations$start,locate_hits[1])
     kin_domain_locations$stop = c(kin_domain_locations$stop,locate_hits[2])
+    kin_domain_locations$protein_length = c(kin_domain_locations$protein_length,
+                                            str_length(this_kin$Protein_clean))
+
   }
 }
 
