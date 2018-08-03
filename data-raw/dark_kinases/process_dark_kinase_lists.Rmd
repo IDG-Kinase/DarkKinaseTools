@@ -99,7 +99,7 @@ all_kinases = HGNC_Kinases_Full %>% mutate(
     symbol %in% dark_kinases$hgnc_symbol ~ "Dark",
     TRUE ~ "Light"
   )
-) %>% select(c("hgnc_id","symbol","ensembl_gene_id","class"))
+) %>% select(c("hgnc_id","symbol","ensembl_gene_id","class","name","uniprot_ids"))
 
 #Join in a the Manning names for the kinases
 all_kinases = left_join(all_kinases,kinase_com_simplified)
