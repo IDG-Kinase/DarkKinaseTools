@@ -20,7 +20,7 @@ Save the resulting list as a data set that should be readily available
 ```{r}
 dark_kinases_raw = readxl::read_xlsx(here('data-raw/dark_kinases/Modified IDG Kinase List for NIH.xlsx'))
 
-dark_kinases = dark_kinases_raw %>%
+dark_kinases_set = dark_kinases_raw %>%
   filter(`Keep/Add` != 'Remove' | is.na(`Keep/Add`)) %>%
   filter(! is.na(`Approved name`)) %>%
   mutate(hgnc_symbol = `Approved name`) %>%
@@ -91,12 +91,12 @@ HGNC_Kinase_IDs = str_match(kinase_com_list$Entrez_dbXrefs,"HGNC:[:digit:]+")
 #should also make it to the master list, add them in with a filter check.
 HGNC_Kinases_Full = HGNC_list %>%
   filter(hgnc_id %in% HGNC_Kinase_IDs |
-         symbol %in% dark_kinases$hgnc_symbol)
+         symbol %in% dark_kinases_set$hgnc_symbol)
 
 #Add the Light/Dark Classification to HGNC_kinases and select only a few columns
 all_kinases = HGNC_Kinases_Full %>% mutate(
   class = case_when(
-    symbol %in% dark_kinases$hgnc_symbol ~ "Dark",
+    symbol %in% dark_kinases_set$hgnc_symbol ~ "Dark",
     TRUE ~ "Light"
   )
 ) %>% select(c("hgnc_id","symbol","ensembl_gene_id","class","name","uniprot_ids"))
