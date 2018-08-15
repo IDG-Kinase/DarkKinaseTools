@@ -9,6 +9,7 @@ library(tidyverse)
 library(readxl)
 library(here)
 library(devtools)
+library(synapser)
 ```
 
 ## DRGC List
@@ -68,6 +69,19 @@ kinase_com_simplified = kinase_com_list %>%
   select(kinase_com_name,hgnc_id)
 ```
 
+## Moret List
+
+A list of kinases has been compiled by Nienke Moret in Peter Sorger's lab. We'll also pull this list in from synapse and integrate it in the final section.
+
+```{r}
+synLogin()
+
+fileEntity <- synGet("syn12617467")
+
+moret_kinase_list = read_csv(fileEntity$path)
+```
+
+
 ## HGNC List
 
 The HGNC (Human Gene Naming Consortium) maintains a list of accepted identifiers that have been approved by the consortium and seem to be relatively well used. I'll use the list from kinase.com and the dark kinase list made by the research group to get the approved names of most of the kinases (some don't have approved names).
@@ -91,7 +105,8 @@ HGNC_Kinase_IDs = str_match(kinase_com_list$Entrez_dbXrefs,"HGNC:[:digit:]+")
 #should also make it to the master list, add them in with a filter check.
 HGNC_Kinases_Full = HGNC_list %>%
   filter(hgnc_id %in% HGNC_Kinase_IDs |
-         symbol %in% dark_kinases_set$hgnc_symbol)
+         symbol %in% dark_kinases_set$hgnc_symbol |
+         symbol %in% moret_kinase_list$gene_symbol)
 
 #Add the Light/Dark Classification to HGNC_kinases and select only a few columns
 all_kinases = HGNC_Kinases_Full %>% mutate(

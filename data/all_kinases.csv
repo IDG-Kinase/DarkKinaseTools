@@ -3,6 +3,7 @@ HGNC:19679,AAK1,ENSG00000115977,Light,AP2 associated kinase 1,Q2M2I8,AAK1
 HGNC:21,AATK,ENSG00000181409,Light,apoptosis associated tyrosine kinase,Q6ZMQ8,LMR1
 HGNC:76,ABL1,ENSG00000097007,Light,"ABL proto-oncogene 1, non-receptor tyrosine kinase",P00519,ABL1
 HGNC:77,ABL2,ENSG00000143322,Light,"ABL proto-oncogene 2, non-receptor tyrosine kinase",P42684,ABL2
+HGNC:81,ABR,ENSG00000159842,Light,"ABR, RhoGEF and GTPase activating protein",Q12979,NA
 HGNC:171,ACVR1,ENSG00000115170,Light,activin A receptor type 1,Q04771,ALK2
 HGNC:172,ACVR1B,ENSG00000135503,Light,activin A receptor type 1B,P36896,ALK4
 HGNC:18123,ACVR1C,ENSG00000123612,Light,activin A receptor type 1C,Q8NER5,ALK7
@@ -12,6 +13,7 @@ HGNC:175,ACVRL1,ENSG00000139567,Light,activin A receptor like type 1,P37023,ALK1
 HGNC:19038,ADCK1,ENSG00000063761,Dark,aarF domain containing kinase 1,Q86TW2,ADCK1
 HGNC:19039,ADCK2,ENSG00000133597,Dark,aarF domain containing kinase 2,Q7Z695,ADCK2
 HGNC:21738,ADCK5,ENSG00000173137,Dark,aarF domain containing kinase 5,Q3MIX3,ADCK5
+HGNC:25250,ADPGK,ENSG00000159322,Light,ADP dependent glucokinase,Q9BRR6,NA
 HGNC:391,AKT1,ENSG00000142208,Light,AKT serine/threonine kinase 1,P31749,AKT1
 HGNC:392,AKT2,ENSG00000105221,Light,AKT serine/threonine kinase 2,P31751,AKT2
 HGNC:393,AKT3,ENSG00000117020,Light,AKT serine/threonine kinase 3,Q9Y243,AKT3
@@ -28,9 +30,12 @@ HGNC:11393,AURKA,ENSG00000087586,Light,aurora kinase A,O14965,AurA
 HGNC:11390,AURKB,ENSG00000178999,Light,aurora kinase B,Q96GD4,AurB
 HGNC:11391,AURKC,ENSG00000105146,Light,aurora kinase C,Q9UQB9,AurC
 HGNC:905,AXL,ENSG00000167601,Light,AXL receptor tyrosine kinase,P30530,AXL
+HGNC:960,BAZ1A,ENSG00000198604,Light,bromodomain adjacent to zinc finger domain 1A,Q9NRL2,NA
+HGNC:961,BAZ1B,ENSG00000009954,Light,bromodomain adjacent to zinc finger domain 1B,Q9UIG0,NA
 HGNC:16902,BCKDK,ENSG00000103507,Dark,branched chain ketoacid dehydrogenase kinase,O14874,BCKDK
 HGNC:1014,BCR,ENSG00000186716,Light,"BCR, RhoGEF and GTPase activating protein",P11274,BCR
 HGNC:1057,BLK,ENSG00000136573,Light,"BLK proto-oncogene, Src family tyrosine kinase",P51451,BLK
+HGNC:1062,BLVRA,ENSG00000106605,Light,biliverdin reductase A,P53004,NA
 HGNC:18041,BMP2K,ENSG00000138756,Light,BMP2 inducible kinase,Q9NSY1,BIKE
 HGNC:1076,BMPR1A,ENSG00000107779,Light,bone morphogenetic protein receptor type 1A,P36894,BMPR1A
 HGNC:1077,BMPR1B,ENSG00000138696,Light,bone morphogenetic protein receptor type 1B,O00238,BMPR1B
@@ -46,6 +51,8 @@ HGNC:11405,BRSK2,ENSG00000174672,Dark,BR serine/threonine kinase 2,Q8IWQ3,BRSK2
 HGNC:1133,BTK,ENSG00000010671,Light,Bruton tyrosine kinase,Q06187,BTK
 HGNC:1148,BUB1,ENSG00000169679,Light,BUB1 mitotic checkpoint serine/threonine kinase,O43683,BUB1
 HGNC:1149,BUB1B,ENSG00000156970,Light,BUB1 mitotic checkpoint serine/threonine kinase B,O60566,BUBR1
+HGNC:52276,BUB1B-PAK6,ENSG00000259288,Light,BUB1B-PAK6 readthrough,,NA
+HGNC:48354,C8orf44-SGK3,ENSG00000270024,Light,C8orf44-SGK3 readthrough,,NA
 HGNC:1459,CAMK1,ENSG00000134072,Light,calcium/calmodulin dependent protein kinase I,Q14012,CaMK1a
 HGNC:19341,CAMK1D,ENSG00000183049,Dark,calcium/calmodulin dependent protein kinase ID,Q8IU85,CaMK1d
 HGNC:14585,CAMK1G,ENSG00000008118,Dark,calcium/calmodulin dependent protein kinase IG,Q96NX5,CaMK1g
@@ -92,10 +99,16 @@ HGNC:1925,CHEK1,ENSG00000149554,Light,checkpoint kinase 1,O14757,CHK1
 HGNC:16627,CHEK2,ENSG00000183765,Light,checkpoint kinase 2,O96017,CHK2
 HGNC:1974,CHUK,ENSG00000213341,Light,conserved helix-loop-helix ubiquitous kinase,O15111,IKKa
 HGNC:1985,CIT,ENSG00000122966,Light,citron rho-interacting serine/threonine kinase,O14578,CRIK
+HGNC:1991,CKB,ENSG00000166165,Light,creatine kinase B,P12277,NA
+HGNC:1994,CKM,ENSG00000104879,Light,"creatine kinase, M-type",P06732,NA
+HGNC:31736,CKMT1A,ENSG00000223572,Light,"creatine kinase, mitochondrial 1A",P12532,NA
+HGNC:1995,CKMT1B,ENSG00000237289,Light,"creatine kinase, mitochondrial 1B",P12532,NA
+HGNC:1996,CKMT2,ENSG00000131730,Light,"creatine kinase, mitochondrial 2",P17540,NA
 HGNC:2068,CLK1,ENSG00000013441,Light,CDC like kinase 1,P49759,CLK1
 HGNC:2069,CLK2,ENSG00000176444,Light,CDC like kinase 2,P49760,CLK2
 HGNC:2071,CLK3,ENSG00000179335,Dark,CDC like kinase 3,P49761,CLK3
 HGNC:13659,CLK4,ENSG00000113240,Dark,CDC like kinase 4,Q9HAZ1,CLK4
+HGNC:2205,COL4A3BP,ENSG00000113163,Light,collagen type IV alpha 3 binding protein,Q9Y5P4,NA
 HGNC:16812,COQ8A,ENSG00000163050,Dark,coenzyme Q8A,Q8NI60,ADCK3
 HGNC:19041,COQ8B,ENSG00000123815,Dark,coenzyme Q8B,Q96D53,ADCK4
 HGNC:2433,CSF1R,ENSG00000182578,Light,colony stimulating factor 1 receptor,P07333,FMS
@@ -118,6 +131,16 @@ HGNC:19002,DCLK2,ENSG00000170390,Light,doublecortin like kinase 2,Q8N568,DCLK2
 HGNC:19005,DCLK3,ENSG00000163673,Dark,doublecortin like kinase 3,Q9C098,DCLK3
 HGNC:2730,DDR1,ENSG00000204580,Light,discoidin domain receptor tyrosine kinase 1,Q08345,DDR1
 HGNC:2731,DDR2,ENSG00000162733,Light,discoidin domain receptor tyrosine kinase 2,Q16832,DDR2
+HGNC:2849,DGKA,ENSG00000065357,Light,diacylglycerol kinase alpha,P23743,NA
+HGNC:2850,DGKB,ENSG00000136267,Light,diacylglycerol kinase beta,Q9Y6T7,NA
+HGNC:2851,DGKD,ENSG00000077044,Light,diacylglycerol kinase delta,Q16760,NA
+HGNC:2852,DGKE,ENSG00000153933,Light,diacylglycerol kinase epsilon,P52429,NA
+HGNC:2853,DGKG,ENSG00000058866,Light,diacylglycerol kinase gamma,P49619,NA
+HGNC:2854,DGKH,ENSG00000102780,Light,diacylglycerol kinase eta,Q86XP1,NA
+HGNC:2855,DGKI,ENSG00000157680,Light,diacylglycerol kinase iota,O75912,NA
+HGNC:32395,DGKK,ENSG00000274588,Light,diacylglycerol kinase kappa,Q5KSL6,NA
+HGNC:2856,DGKQ,ENSG00000145214,Light,diacylglycerol kinase theta,P52824,NA
+HGNC:2857,DGKZ,ENSG00000149091,Light,diacylglycerol kinase zeta,Q13574,NA
 HGNC:2933,DMPK,ENSG00000104936,Light,DM1 protein kinase,Q09013,DMPK1
 HGNC:29043,DSTYK,ENSG00000133059,Dark,dual serine/threonine and tyrosine protein kinase,Q6XUX3,SgK496
 HGNC:3091,DYRK1A,ENSG00000157540,Light,dual specificity tyrosine phosphorylation regulated kinase 1A,Q13627,DYRK1A
@@ -151,6 +174,10 @@ HGNC:3432,ERBB4,ENSG00000178568,Light,erb-b2 receptor tyrosine kinase 4,Q15303,E
 HGNC:3449,ERN1,ENSG00000178607,Light,endoplasmic reticulum to nucleus signaling 1,O75460,IRE1
 HGNC:16942,ERN2,ENSG00000134398,Dark,endoplasmic reticulum to nucleus signaling 2,Q76MJ5,IRE2
 HGNC:24676,FASTK,ENSG00000164896,Light,Fas activated serine/threonine kinase,Q14296,FASTK
+HGNC:26150,FASTKD1,ENSG00000138399,Light,FAST kinase domains 1,Q53R41,NA
+HGNC:29160,FASTKD2,ENSG00000118246,Light,FAST kinase domains 2,Q9NYY8,NA
+HGNC:28758,FASTKD3,ENSG00000124279,Light,FAST kinase domains 3,Q14CZ7,NA
+HGNC:25790,FASTKD5,ENSG00000215251,Light,FAST kinase domains 5,Q7L8L6,NA
 HGNC:3655,FER,ENSG00000151422,Light,FER tyrosine kinase,P16591,FER
 HGNC:3657,FES,ENSG00000182511,Light,"FES proto-oncogene, tyrosine kinase",P07332,FES
 HGNC:3688,FGFR1,ENSG00000077782,Light,fibroblast growth factor receptor 1,P11362,FGFR1
@@ -161,9 +188,11 @@ HGNC:3697,FGR,ENSG00000000938,Light,"FGR proto-oncogene, Src family tyrosine kin
 HGNC:3763,FLT1,ENSG00000102755,Light,fms related tyrosine kinase 1,P17948,FLT1
 HGNC:3765,FLT3,ENSG00000122025,Light,fms related tyrosine kinase 3,P36888,FLT3
 HGNC:3767,FLT4,ENSG00000037280,Light,fms related tyrosine kinase 4,P35916,FLT4
+HGNC:42952,FPGT-TNNI3K,ENSG00000259030,Light,FPGT-TNNI3K readthrough,,NA
 HGNC:3955,FRK,ENSG00000111816,Light,fyn related Src family tyrosine kinase,P42685,FRK
 HGNC:4037,FYN,ENSG00000010810,Light,"FYN proto-oncogene, Src family tyrosine kinase",P06241,FYN
 HGNC:4113,GAK,ENSG00000178950,Light,cyclin G associated kinase,O14976,GAK
+HGNC:4195,GCK,ENSG00000106633,Light,glucokinase,P35557,NA
 HGNC:10013,GRK1,ENSG00000185974,Light,G protein-coupled receptor kinase 1,Q15835,RHOK
 HGNC:289,GRK2,ENSG00000173020,Light,G protein-coupled receptor kinase 2,P25098,BARK1
 HGNC:290,GRK3,ENSG00000100077,Light,G protein-coupled receptor kinase 3,P35626,BARK2
@@ -173,6 +202,7 @@ HGNC:4545,GRK6,ENSG00000198055,Light,G protein-coupled receptor kinase 6,P43250,
 HGNC:17031,GRK7,ENSG00000114124,Light,G protein-coupled receptor kinase 7,Q8WTQ7,GPRK7
 HGNC:4616,GSK3A,ENSG00000105723,Light,glycogen synthase kinase 3 alpha,P49840,GSK3A
 HGNC:4617,GSK3B,ENSG00000082701,Light,glycogen synthase kinase 3 beta,P49841,GSK3B
+HGNC:4652,GTF2F1,ENSG00000125651,Light,general transcription factor IIF subunit 1,P35269,NA
 HGNC:4688,GUCY2C,ENSG00000070019,Light,guanylate cyclase 2C,P25092,HSER
 HGNC:4689,GUCY2D,ENSG00000132518,Light,"guanylate cyclase 2D, retinal",Q02846,CYGD
 HGNC:4691,GUCY2F,ENSG00000101890,Light,"guanylate cyclase 2F, retinal",P51841,CYGF
@@ -182,6 +212,10 @@ HGNC:19006,HIPK1,ENSG00000163349,Dark,homeodomain interacting protein kinase 1,Q
 HGNC:14402,HIPK2,ENSG00000064393,Light,homeodomain interacting protein kinase 2,Q9H2X6,HIPK2
 HGNC:4915,HIPK3,ENSG00000110422,Dark,homeodomain interacting protein kinase 3,Q9H422,HIPK3
 HGNC:19007,HIPK4,ENSG00000160396,Dark,homeodomain interacting protein kinase 4,Q8NE63,HIPK4
+HGNC:4922,HK1,ENSG00000156515,Light,hexokinase 1,P19367,NA
+HGNC:4923,HK2,ENSG00000159399,Light,hexokinase 2,P52789,NA
+HGNC:4925,HK3,ENSG00000160883,Light,hexokinase 3,P52790,NA
+HGNC:23302,HKDC1,ENSG00000156510,Light,hexokinase domain containing 1,Q2TB90,NA
 HGNC:30171,HSPB8,ENSG00000152137,Light,heat shock protein family B (small) member 8,Q9UJY1,H11
 HGNC:13326,HUNK,ENSG00000142149,Light,hormonally up-regulated Neu-associated kinase,P57058,HUNK
 HGNC:21219,ICK,ENSG00000112144,Dark,intestinal cell kinase,Q9UPZ9,ICK
@@ -332,12 +366,23 @@ HGNC:8810,PDK2,ENSG00000005882,Light,pyruvate dehydrogenase kinase 2,Q15119,PDHK
 HGNC:8811,PDK3,ENSG00000067992,Light,pyruvate dehydrogenase kinase 3,Q15120,PDHK3
 HGNC:8812,PDK4,ENSG00000004799,Light,pyruvate dehydrogenase kinase 4,Q16654,PDHK4
 HGNC:8816,PDPK1,ENSG00000140992,Light,3-phosphoinositide dependent protein kinase 1,O15530,PDK1
+HGNC:49897,PDPK2P,ENSG00000205918,Light,"3-phosphoinositide dependent protein kinase 2, pseudogene",Q6A1A2,NA
 HGNC:29431,PEAK1,ENSG00000173517,Light,pseudopodium enriched atypical kinase 1,Q9H792,SgK269
 HGNC:8930,PHKG1,ENSG00000164776,Dark,phosphorylase kinase catalytic subunit gamma 1,Q16816,PHKg1
 HGNC:8931,PHKG2,ENSG00000156873,Dark,phosphorylase kinase catalytic subunit gamma 2,P15735,PHKg2
+HGNC:30031,PI4K2A,ENSG00000155252,Light,phosphatidylinositol 4-kinase type 2 alpha,Q9BTU6,NA
+HGNC:18215,PI4K2B,ENSG00000038210,Light,phosphatidylinositol 4-kinase type 2 beta,Q8TCG2,NA
 HGNC:8983,PI4KA,ENSG00000241973,Dark,phosphatidylinositol 4-kinase alpha,P42356,NA
+HGNC:33577,PI4KAP2,ENSG00000183506,Light,phosphatidylinositol 4-kinase alpha pseudogene 2,A4QPH2,NA
+HGNC:8984,PI4KB,ENSG00000143393,Light,phosphatidylinositol 4-kinase beta,Q9UBF8,NA
+HGNC:8971,PIK3C2A,ENSG00000011405,Light,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha,O00443,NA
 HGNC:8972,PIK3C2B,ENSG00000133056,Dark,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 beta,O00750,NA
 HGNC:8973,PIK3C2G,ENSG00000139144,Dark,phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 gamma,O75747,NA
+HGNC:8974,PIK3C3,ENSG00000078142,Light,phosphatidylinositol 3-kinase catalytic subunit type 3,Q8NEB9,NA
+HGNC:8975,PIK3CA,ENSG00000121879,Light,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",P42336,NA
+HGNC:8976,PIK3CB,ENSG00000051382,Light,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",P42338,NA
+HGNC:8977,PIK3CD,ENSG00000171608,Light,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",O00329,NA
+HGNC:8978,PIK3CG,ENSG00000105851,Light,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",P48736,NA
 HGNC:8982,PIK3R4,ENSG00000196455,Light,phosphoinositide-3-kinase regulatory subunit 4,Q99570,PIK3R4
 HGNC:8986,PIM1,ENSG00000137193,Light,"Pim-1 proto-oncogene, serine/threonine kinase",P11309,PIM1
 HGNC:8987,PIM2,ENSG00000102096,Light,"Pim-2 proto-oncogene, serine/threonine kinase",Q9P1W9,PIM2
@@ -425,6 +470,7 @@ HGNC:10810,SGK1,ENSG00000118515,Light,serum/glucocorticoid regulated kinase 1,O0
 HGNC:13900,SGK2,ENSG00000101049,Light,"SGK2, serine/threonine kinase 2",Q9HBY8,SGK2
 HGNC:10812,SGK3,ENSG00000104205,Light,serum/glucocorticoid regulated kinase family member 3,Q96BR1,SGK3
 HGNC:11142,SIK1,ENSG00000142178,Light,salt inducible kinase 1,P57059,SIK
+HGNC:52389,SIK1B,ENSG00000275993,Light,salt inducible kinase 1B (putative),,NA
 HGNC:21680,SIK2,ENSG00000170145,Light,salt inducible kinase 2,Q9H0K1,QIK
 HGNC:29165,SIK3,ENSG00000160584,Light,SIK family kinase 3,Q9Y2K2,QSK
 HGNC:11088,SLK,ENSG00000065613,Light,STE20 like kinase,Q9H2G2,SLK
@@ -470,6 +516,7 @@ HGNC:16835,TAOK2,ENSG00000149930,Dark,TAO kinase 2,Q9UL54,TAO2
 HGNC:18133,TAOK3,ENSG00000135090,Light,TAO kinase 3,Q9H2K8,TAO3
 HGNC:28261,TBCK,ENSG00000145348,Dark,TBC1 domain containing kinase,Q8TEA7,TBCK
 HGNC:11584,TBK1,ENSG00000183735,Light,TANK binding kinase 1,Q9UHD2,TBK1
+HGNC:17443,TBRG4,ENSG00000136270,Light,transforming growth factor beta regulator 4,Q969Z0,NA
 HGNC:11719,TEC,ENSG00000135605,Light,tec protein tyrosine kinase,P42680,TEC
 HGNC:11724,TEK,ENSG00000120156,Light,TEK receptor tyrosine kinase,Q02763,TIE2
 HGNC:11731,TESK1,ENSG00000107140,Dark,testis associated actin remodelling kinase 1,Q15569,TESK1
@@ -485,12 +532,14 @@ HGNC:11940,TNK1,ENSG00000174292,Light,tyrosine kinase non receptor 1,Q13470,TNK1
 HGNC:19297,TNK2,ENSG00000061938,Light,tyrosine kinase non receptor 2,Q07912,ACK
 HGNC:19661,TNNI3K,ENSG00000116783,Light,TNNI3 interacting kinase,Q59H18,HH498
 HGNC:16197,TP53RK,ENSG00000172315,Dark,TP53 regulating kinase,Q96S44,PRPK
+HGNC:53829,TPTEP2-CSNK1E,ENSG00000283900,Light,TPTEP2-CSNK1E readthrough,,NA
 HGNC:16891,TRIB1,ENSG00000173334,Light,tribbles pseudokinase 1,Q96RU8,Trb1
 HGNC:30809,TRIB2,ENSG00000071575,Light,tribbles pseudokinase 2,Q92519,Trb2
 HGNC:16228,TRIB3,ENSG00000101255,Light,tribbles pseudokinase 3,Q96RU7,Trb3
 HGNC:11812,TRIM24,ENSG00000122779,Light,tripartite motif containing 24,O15164,TIF1a
 HGNC:16384,TRIM28,ENSG00000130726,Light,tripartite motif containing 28,Q13263,TIF1b
 HGNC:16290,TRIM33,ENSG00000197323,Light,tripartite motif containing 33,Q9UPN9,TIF1g
+HGNC:29005,TRIM66,ENSG00000166436,Light,tripartite motif containing 66,O15016,NA
 HGNC:12303,TRIO,ENSG00000038382,Light,trio Rho guanine nucleotide exchange factor,O75962,Trio
 HGNC:17995,TRPM6,ENSG00000119121,Light,transient receptor potential cation channel subfamily M member 6,Q9BX84,ChaK2
 HGNC:17994,TRPM7,ENSG00000092439,Light,transient receptor potential cation channel subfamily M member 7,Q96QT4,ChaK1
@@ -517,6 +566,7 @@ HGNC:12719,VRK2,ENSG00000028116,Dark,vaccinia related kinase 2,Q86Y07,VRK2
 HGNC:18996,VRK3,ENSG00000105053,Dark,vaccinia related kinase 3,Q8IV63,VRK3
 HGNC:12761,WEE1,ENSG00000166483,Light,WEE1 G2 checkpoint kinase,P30291,Wee1
 HGNC:19684,WEE2,ENSG00000214102,Dark,WEE1 homolog 2,P0C1S8,Wee1B
+HGNC:48669,WEE2-AS1,ENSG00000228775,Light,WEE2 antisense RNA 1,,NA
 HGNC:14540,WNK1,ENSG00000060237,Light,WNK lysine deficient protein kinase 1,Q9H4A3,Wnk1
 HGNC:14542,WNK2,ENSG00000165238,Dark,WNK lysine deficient protein kinase 2,Q9Y3S1,Wnk2
 HGNC:14543,WNK3,ENSG00000196632,Dark,WNK lysine deficient protein kinase 3,Q9BYP7,Wnk3
