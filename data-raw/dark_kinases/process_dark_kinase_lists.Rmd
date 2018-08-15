@@ -103,6 +103,7 @@ all_kinases = HGNC_Kinases_Full %>% mutate(
 
 #Join in a the Manning names for the kinases
 all_kinases = left_join(all_kinases,kinase_com_simplified)
+write_csv(all_kinases,here('data/all_kinases.csv'))
 
 dark_kinases = all_kinases %>% filter(class == "Dark")
 
