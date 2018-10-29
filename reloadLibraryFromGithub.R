@@ -1,4 +1,4 @@
 #!/usr/bin/env Rscript
 
 library('devtools'); 
-install_github('gomezlab/DarkKinaseTools')
+install_github('IDG-Kinase/DarkKinaseTools')
