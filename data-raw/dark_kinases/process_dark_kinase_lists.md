@@ -1,25 +1,36 @@
----
-title: "Processing the Dark Kinase Lists"
-author: "Matthew Berginski"
-output: github_document
----
+Processing the Dark Kinase Lists
+================
+Matthew Berginski
 
-```{r,echo=FALSE}
-#Load required libraries
-library(tidyverse)
-library(readxl)
-library(here)
-library(devtools)
-library(synapser)
-```
+    ## ── Attaching packages ────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──
 
-## DRGC List
+    ## ✔ ggplot2 3.0.0     ✔ purrr   0.2.5
+    ## ✔ tibble  1.4.2     ✔ dplyr   0.7.5
+    ## ✔ tidyr   0.8.1     ✔ stringr 1.3.1
+    ## ✔ readr   1.1.1     ✔ forcats 0.3.0
+
+    ## ── Conflicts ───────────────────────────────────────────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+
+    ## here() starts at /home/mbergins/Documents/Projects/DarkKinaseTools
+
+    ## 
+    ## TERMS OF USE NOTICE:
+    ##   When using Synapse, remember that the terms and conditions of use require that you:
+    ##   1) Attribute data contributors when discussing these data or results from these data.
+    ##   2) Not discriminate, identify, or recontact individuals or groups represented by the data.
+    ##   3) Use and contribute only data de-identified to HIPAA standards.
+    ##   4) Redistribute data only under these same terms of use.
+
+DRGC List
+---------
 
 This notebook describes the data cleaning and processing steps used to build the dark kinase lists from several sources. The first of which is the spreadsheet produced by the research groups that lists the kinases included in the Dark set. This spreadsheet was made in excel and mostly uses HGNC identifiers. There is a single special case "SGK494", which is dealt with below.
 
-Save the resulting list as a data set that should be readily available 
+Save the resulting list as a data set that should be readily available
 
-```{r}
+``` r
 dark_kinases_raw = readxl::read_xlsx(here('data-raw/dark_kinases/Modified IDG Kinase List for NIH.xlsx'))
 
 dark_kinases_set = dark_kinases_raw %>%
@@ -38,11 +49,12 @@ dark_kinases_set = dark_kinases_raw %>%
 # devtools::use_data(dark_kinases, overwrite = TRUE)
 ```
 
-## Kinase.com List
+Kinase.com List
+---------------
 
 There is a list of kinases maintained on kinase.com that stems from the original Manning et al 2002 paper that used the early human genome sequence to identify all (maybe?) kinases. The resulting list is an excel spreadsheet with a wide range of columns. For now, I'm only really interested in using this list to get a full set of kinases collected and organized with a standardized list of names/IDs. Unfortunately, the list has it's own, probably historical, names for each kinase. I want to keep these because the other lists on kinase.com (such as mouse) also use these names. Instead of these, I'll key off the list HGNC IDs.
 
-```{r}
+``` r
 kinome_com_file = here('data-raw','dark_kinases','kinase.com_list.xls')
 if (! file.exists(kinome_com_file)) {
   download.file('http://kinase.com/human/kinome/tables/Kincat_Hsap.08.02.xls',
@@ -70,24 +82,44 @@ kinase_com_simplified = kinase_com_list %>%
   select(kinase_com_name,hgnc_id)
 ```
 
-## Moret List
+Moret List
+----------
 
 A list of kinases has been compiled by Nienke Moret in Peter Sorger's lab. We'll also pull this list in from synapse and integrate it in the final section.
 
-```{r}
+``` r
 synLogin()
+```
 
+    ## Welcome, Matthew Berginski!
+
+    ## NULL
+
+``` r
 fileEntity <- synGet("syn12617467")
 
 moret_kinase_list = read_csv(fileEntity$path)
 ```
 
+    ## Parsed with column specification:
+    ## cols(
+    ##   gene_id = col_integer(),
+    ##   gene_symbol = col_character(),
+    ##   name = col_character(),
+    ##   in_manning = col_logical(),
+    ##   in_kinmap = col_logical(),
+    ##   in_uniprot_kinasedomain = col_logical(),
+    ##   in_IDG_darkkinases = col_logical(),
+    ##   n_pubmed_citations_2013to2018 = col_integer(),
+    ##   pharos_designation = col_character()
+    ## )
 
-## HGNC List
+HGNC List
+---------
 
 The HGNC (Human Gene Naming Consortium) maintains a list of accepted identifiers that have been approved by the consortium and seem to be relatively well used. I'll use the list from kinase.com and the dark kinase list made by the research group to get the approved names of most of the kinases (some don't have approved names).
 
-```{r}
+``` r
 hgnc_protein_file = here('data-raw','dark_kinases','hgnc_complete_set.txt')
 if (! file.exists(hgnc_protein_file)) {
   download.file('ftp://ftp.ebi.ac.uk/pub/databases/genenames/new/tsv/hgnc_complete_set.txt',
@@ -119,11 +151,26 @@ all_kinases = HGNC_Kinases_Full %>% mutate(
 
 #Join in a the Manning names for the kinases
 all_kinases = left_join(all_kinases,kinase_com_simplified)
+```
+
+    ## Joining, by = "hgnc_id"
+
+    ## Warning: Column `hgnc_id` joining factor and character vector, coercing
+    ## into character vector
+
+``` r
 write_csv(all_kinases,here('data/all_kinases.csv'))
 
 dark_kinases = all_kinases %>% filter(class == "Dark")
 write_csv(dark_kinases,here('data/dark_kinases.csv'))
 
 devtools::use_data(dark_kinases, overwrite = TRUE)
+```
+
+    ## Saving dark_kinases as dark_kinases.rda to /home/mbergins/Documents/Projects/DarkKinaseTools/data
+
+``` r
 devtools::use_data(all_kinases, overwrite = TRUE)
 ```
+
+    ## Saving all_kinases as all_kinases.rda to /home/mbergins/Documents/Projects/DarkKinaseTools/data
