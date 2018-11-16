@@ -11,7 +11,7 @@ This package can be installed using devtools:
 
 ``` r
 install.packages('devtools')
-devtools::install_github("gomezlab/DarkKinaseTools")
+devtools::install_github("IDG-Kinase/DarkKinaseTools")
 ```
 
 # Usage
