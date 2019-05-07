@@ -6,7 +6,6 @@ Author: person("Matthew", "Berginski", email="matthew.berginski@gmail.com", role
 Maintainer: Matthew Berginski <matthew.berginski@gmail.com>
 Description: This package will provide a set of shared tools and lists useful 
     for working with data related to understudied (dark) kinases.
-Depends: R (>= 2.10)    
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
