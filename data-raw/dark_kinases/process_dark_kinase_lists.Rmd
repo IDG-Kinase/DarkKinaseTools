@@ -28,9 +28,12 @@ dark_kinases_set = dark_kinases_raw %>%
   mutate(hgnc_symbol = `Approved name`) %>%
   rename(DRGC_symbol = `Approved name`) %>%
   #There is one symbol in the "Approved name" that isn't in the HGNC list:
-  #SGK494, mark it as NA
+  #SGK494, mark it as NA 
+  #
+  #Update 5/7/2019 - SGK494 has been assigned an HGNC ID,
+  #RSKR, I'll sub it in here and let that change propigate through
   mutate(hgnc_symbol = case_when(
-    hgnc_symbol == "SGK494" ~ "NA",
+    hgnc_symbol == "SGK494" ~ "RSKR",
     TRUE ~ as.character(hgnc_symbol)
   )) %>%
   select(hgnc_symbol,DRGC_symbol)
@@ -117,6 +120,7 @@ all_kinases = HGNC_Kinases_Full %>% mutate(
   )
 ) %>% select(c("hgnc_id","symbol","ensembl_gene_id","class","name","uniprot_ids","entrez_id","alias_symbol")) %>%
   mutate(alias_symbol = ifelse(alias_symbol == "", as.character(symbol), paste0(symbol,"|",alias_symbol)))
+
 
 #Join in a the Manning names for the kinases
 all_kinases = left_join(all_kinases,kinase_com_simplified)
