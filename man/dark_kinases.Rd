@@ -4,10 +4,17 @@
 \name{dark_kinases}
 \alias{dark_kinases}
 \title{Human Dark Kinases}
-\format{A data frame with 162 rows and 2 columns
+\format{A data frame with 162 rows and 9 columns
 \describe{
-  \item{hgnc_symbol}{The human dark kinase name in HGNC}
-  \item{DRGC_symbol}{The symbol used int the DRGC documents, mostly idenfical to the hgnc_symbol, minus proteins without HGNC symbols}
+  \item{hgnc_id}{The ID number assigned by HGNC, formated as HGNC:#####}
+  \item{symbol}{The human dark kinase name in HGNC}
+  \item{ensembl_gene_id}{The ID assigned by ensembl, all start with ENSG}
+  \item{class}{Either Light or Dark, using the IDG classifications}
+  \item{name}{A slightly longer name/description for the gene from HGNC}
+  \item{uniprot_ids}{Uniprot identifiers the gene}
+  \item{entrez_id}{Entrez ID from NCBI}
+  \item{alias_symbol}{Collection of alternative symbols from HGNC, formated to work (at least partially, watch for edge cases) in a regular expression}
+  \item{kinase_com_name}{Identifier used in the kinase.com list of human kinases}
 }}
 \source{
 NIH and the Dark Kinase DRGC

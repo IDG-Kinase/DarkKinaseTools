@@ -9,7 +9,12 @@
   \item{kinase_com_name}{The name used on the kinase.com list, used for cross-referencing other lists from kinase.com}
   \item{start}{First amino acid in the kinase domain}
   \item{stop}{Last amino acid in the kinase domain}
-  \item{protein_length}{Number of Amino Acids in this protein} }}
+  \item{protein_length}{Number of Amino Acids in this protein}
+  \item{hgnc_id}{The ID number assigned by HGNC, formated as HGNC:#####}
+  \item{symbol}{The human dark kinase name in HGNC}
+  \item{ensembl_gene_id}{The ID assigned by ensembl, all start with ENSG}
+  \item{class}{Either Light or Dark, using the IDG classifications}
+}}
 \source{
 \url{http://kinase.com/}
 }
