@@ -86,6 +86,7 @@ moret_kinase_list = read_csv(fileEntity$path)
 ```
 
 
+
 ## HGNC List
 
 The HGNC (Human Gene Naming Consortium) maintains a list of accepted identifiers that have been approved by the consortium and seem to be relatively well used. I'll use the list from kinase.com and the dark kinase list made by the research group to get the approved names of most of the kinases (some don't have approved names).
@@ -109,8 +110,8 @@ HGNC_Kinase_IDs = str_match(kinase_com_list$Entrez_dbXrefs,"HGNC:[:digit:]+")
 #should also make it to the master list, add them in with a filter check.
 HGNC_Kinases_Full = HGNC_list %>%
   filter(hgnc_id %in% HGNC_Kinase_IDs |
-         symbol %in% dark_kinases_set$hgnc_symbol |
-         symbol %in% moret_kinase_list$gene_symbol)
+           symbol %in% dark_kinases_set$hgnc_symbol |
+           symbol %in% moret_kinase_list$gene_symbol)
 
 #Add the Light/Dark Classification to HGNC_kinases and select only a few columns
 all_kinases = HGNC_Kinases_Full %>% mutate(
@@ -118,12 +119,33 @@ all_kinases = HGNC_Kinases_Full %>% mutate(
     symbol %in% dark_kinases_set$hgnc_symbol ~ "Dark",
     TRUE ~ "Light"
   )
-) %>% select(c("hgnc_id","symbol","ensembl_gene_id","class","name","uniprot_ids","entrez_id","alias_symbol")) %>%
+) %>% 
+  select(c("hgnc_id","symbol","ensembl_gene_id","class","name","uniprot_ids","entrez_id","alias_symbol")) %>%
   mutate(alias_symbol = ifelse(alias_symbol == "", as.character(symbol), paste0(symbol,"|",alias_symbol)))
 
-
-#Join in a the Manning names for the kinases
+#Join in the Manning names for the kinases
 all_kinases = left_join(all_kinases,kinase_com_simplified)
+```
+## NIH List Updates 2019
+
+This is an update to the kinase list that came down from NIH in 2019. Originally 
+copy and pasted in from: https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-19-011.html
+
+```{r}
+kinase_2019_included = tibble(nih_symbol = colnames(read_csv(here('data-raw/dark_kinases/kinase_update_list_2019.csv'))))
+
+#The only gene name that doesn't match with the HGNC IDs is SGK494, which was assigned an HGNC ID in 2018, so I'll add it manually
+
+kinase_2019_included = rbind(kinase_2019_included, tibble(nih_symbol = "RSKR"))
+
+all_kinases_temp = all_kinases %>% 
+  mutate(class_2019 = ifelse(symbol %in% kinase_2019_included$nih_symbol, "Dark", "Light"))
+```
+
+## Writing Out the Lists
+
+```{r}
+
 write_csv(all_kinases,here('data/all_kinases.csv'))
 
 dark_kinases = all_kinases %>% filter(class == "Dark")
