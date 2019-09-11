@@ -138,7 +138,7 @@ kinase_2019_included = tibble(nih_symbol = colnames(read_csv(here('data-raw/dark
 
 kinase_2019_included = rbind(kinase_2019_included, tibble(nih_symbol = "RSKR"))
 
-all_kinases_temp = all_kinases %>% 
+all_kinases = all_kinases %>% 
   mutate(class_2019 = ifelse(symbol %in% kinase_2019_included$nih_symbol, "Dark", "Light"))
 ```
 
