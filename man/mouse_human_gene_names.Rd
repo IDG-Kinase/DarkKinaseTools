@@ -4,11 +4,13 @@
 \name{mouse_human_gene_names}
 \alias{mouse_human_gene_names}
 \title{Mouse Kinases and Corresponding Human Orthologs}
-\format{A data frame with 463 rows and 2 columns
+\format{
+A data frame with 463 rows and 2 columns
 \describe{
   \item{MGI_symbol}{The kinase symbol from the MGI database}
   \item{kinase_com_human_orthlog}{The corresponding human ortholog from kinase.com if identified}
-}}
+}
+}
 \source{
 \url{http://kinase.com/mouse/} and the MGI database
 }

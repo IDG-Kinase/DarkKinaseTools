@@ -3,7 +3,6 @@
 \docType{package}
 \name{DarkKinaseTools}
 \alias{DarkKinaseTools}
-\alias{DarkKinaseTools-package}
 \title{DarkKinaseTools: A package for working with dark kinase data.}
 \description{
 The DarkKinaseTools package provides three data sets that I've found to be

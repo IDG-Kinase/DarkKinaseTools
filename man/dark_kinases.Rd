@@ -4,7 +4,8 @@
 \name{dark_kinases}
 \alias{dark_kinases}
 \title{Human Dark Kinases}
-\format{A data frame with 162 rows and 9 columns
+\format{
+A data frame with 162 rows and 9 columns
 \describe{
   \item{hgnc_id}{The ID number assigned by HGNC, formated as HGNC:#####}
   \item{symbol}{The human dark kinase name in HGNC}
@@ -15,7 +16,8 @@
   \item{entrez_id}{Entrez ID from NCBI}
   \item{alias_symbol}{Collection of alternative symbols from HGNC, formated to work (at least partially, watch for edge cases) in a regular expression}
   \item{kinase_com_name}{Identifier used in the kinase.com list of human kinases}
-}}
+}
+}
 \source{
 NIH and the Dark Kinase DRGC
 }

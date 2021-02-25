@@ -4,7 +4,8 @@
 \name{kin_domain_locations}
 \alias{kin_domain_locations}
 \title{Human Kinase Domain Locations}
-\format{A data frame with 516 rows and 8 columns
+\format{
+A data frame with 516 rows and 8 columns
 \describe{
   \item{kinase_com_name}{The name used on the kinase.com list, used for cross-referencing other lists from kinase.com}
   \item{start}{First amino acid in the kinase domain}
@@ -14,7 +15,8 @@
   \item{symbol}{The human dark kinase name in HGNC}
   \item{ensembl_gene_id}{The ID assigned by ensembl, all start with ENSG}
   \item{class}{Either Light or Dark, using the IDG classifications}
-}}
+}
+}
 \source{
 \url{http://kinase.com/}
 }
